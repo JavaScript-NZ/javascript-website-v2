@@ -2,7 +2,7 @@
   "engines": {
     "html": "html",
     "js": "js",
-    "css": "css"
+    "css": "scss"
   },
 
   "template": {
@@ -17,6 +17,12 @@
   },
 
   "generator": {
-    "comments": "true"
+    "comments": "false"
+  },
+
+  "mup": {
+    "version": "mupx",
+    "development": "./config/development",
+    "production": "./config/production"
   }
 }

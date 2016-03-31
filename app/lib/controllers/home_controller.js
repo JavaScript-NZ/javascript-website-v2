@@ -6,6 +6,8 @@ HomeController = RouteController.extend({
   // this.subscribe('item', this.params._id).wait();
   
   subscriptions: function() {
+    Meteor.subscribe("posts");
+    Meteor.subscribe('all_users')
   },
   
   // Subscriptions or other things we want to "wait" on. This also
@@ -24,7 +26,10 @@ HomeController = RouteController.extend({
   
   data: function () {
   },
-  
+
+  contact: function (){
+    this.render('Contactform');
+  },
   // You can provide any of the hook options
   
   onRun: function () {

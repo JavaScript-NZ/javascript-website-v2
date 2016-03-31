@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/logo-48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/logo-email.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/splash-1024.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/splash-1440.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/splash-1920.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/splash-2560.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.floo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.flooignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/javascriptnz.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/.custom.semantic.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/custom.semantic.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/behaviors/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/behaviors/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/behaviors/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/behaviors/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/behaviors/visibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/behaviors/visit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/breadcrumb.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/form.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/grid.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/menu.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/message.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/table.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/button.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/container.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/divider.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/flag.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/header.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/icon.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/image.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/input.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/label.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/list.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/loader.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/rail.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/reveal.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/segment.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/elements/step.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/globals/reset.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/globals/site.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/globals/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/accordion.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/checkbox.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/dimmer.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/dimmer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/dropdown.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/embed.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/embed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/modal.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/nag.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/nag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/popup.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/progress.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/rating.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/rating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/search.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/shape.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/shape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/sidebar.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/sticky.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/tab.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/transition.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/modules/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/ad.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/card.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/comment.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/feed.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/item.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/statistic.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/semantic.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/breadcrumb.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/breadcrumb.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/grid.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/grid.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/menu.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/menu.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/message.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/message.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/table.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/table.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/button.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/button.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/container.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/container.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/divider.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/divider.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/flag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/flag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/header.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/header.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/icon.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/icon.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/image.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/image.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/input.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/input.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/label.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/label.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/list.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/list.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/loader.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/loader.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/rail.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/rail.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/reveal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/reveal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/segment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/segment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/step.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/elements/step.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/reset.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/reset.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/accordion.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/accordion.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/checkbox.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/checkbox.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/dimmer.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/dimmer.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/dropdown.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/dropdown.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/embed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/embed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/modal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/modal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/nag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/nag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/popup.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/popup.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/progress.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/progress.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/rating.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/rating.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/search.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/search.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/shape.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/shape.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/sidebar.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/sidebar.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/sticky.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/sticky.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/tab.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/tab.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/transition.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/transition.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/ad.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/ad.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/card.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/card.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/comment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/comment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/feed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/feed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/statistic.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/statistic.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/theme.config.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/theme.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/breadcrumb.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/breadcrumb.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/form.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/form.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/grid.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/grid.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/menu.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/menu.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/message.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/message.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/table.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/collections/table.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/button.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/button.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/container.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/container.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/divider.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/divider.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/flag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/flag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/header.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/header.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/icon.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/icon.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/image.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/image.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/input.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/input.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/label.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/label.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/list.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/list.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/loader.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/loader.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/rail.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/rail.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/reveal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/reveal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/segment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/segment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/step.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/elements/step.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/globals/reset.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/globals/reset.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/globals/site.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/globals/site.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/accordion.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/accordion.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/checkbox.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/checkbox.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/dimmer.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/dimmer.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/dropdown.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/dropdown.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/embed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/embed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/modal.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/modal.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/nag.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/nag.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/popup.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/popup.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/progress.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/progress.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/rating.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/rating.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/search.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/search.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/shape.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/shape.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/sidebar.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/sidebar.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/sticky.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/sticky.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/tab.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/tab.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/transition.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/modules/transition.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/ad.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/ad.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/card.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/card.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/comment.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/comment.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/feed.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/feed.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/item.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/item.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/statistic.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/views/statistic.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/raised/elements/button.overrides.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/themes/raised/elements/button.variables.import.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/stylesheets/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/contactform/contactform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/contactform/contactform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/contactform/contactform.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/posts/posts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/posts/posts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/accounts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/collections/posts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/controllers/posts_controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/splash.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/development/mup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/production/mup.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/client/stylesheets/main.css" afterPath="$PROJECT_DIR$/app/client/templates/posts/posts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.iron/config.json" afterPath="$PROJECT_DIR$/.iron/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/.finished-upgraders" afterPath="$PROJECT_DIR$/app/.meteor/.finished-upgraders" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/packages" afterPath="$PROJECT_DIR$/app/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/release" afterPath="$PROJECT_DIR$/app/.meteor/release" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/versions" afterPath="$PROJECT_DIR$/app/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/home/home.html" afterPath="$PROJECT_DIR$/app/client/templates/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/home/home.js" afterPath="$PROJECT_DIR$/app/client/templates/home/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" afterPath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" afterPath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/controllers/home_controller.js" afterPath="$PROJECT_DIR$/app/lib/controllers/home_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/routes.js" afterPath="$PROJECT_DIR$/app/lib/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/publish.js" afterPath="$PROJECT_DIR$/app/server/publish.js" />
+    </list>
+    <ignored path="javascriptnz.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="javascriptnz" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="e#37#439#0#Spacebars" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_layout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accounts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/accounts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/lib/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packages" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/.meteor/packages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactform.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/contactform/contactform.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <marker date="1459427277000" expanded="true" signature="28:479" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="46" />
+              <folding>
+                <element signature="e#101#509#0#Spacebars" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.iron/config.json" />
+        <option value="$PROJECT_DIR$/config/production/mup.json" />
+        <option value="$PROJECT_DIR$/config/development/mup.json" />
+        <option value="$PROJECT_DIR$/app/lib/semantic-ui/custom.semantic.js" />
+        <option value="$PROJECT_DIR$/app/client/lib/semantic-ui/custom.semantic.json" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.js" />
+        <option value="$USER_HOME$/.floorc.json" />
+        <option value="$PROJECT_DIR$/app/lib/collections/posts.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/app/server/publish.js" />
+        <option value="$PROJECT_DIR$/app/lib/routes.js" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/home_controller.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/contactform/contactform.html" />
+        <option value="$PROJECT_DIR$/app/client/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/client/lib/helpers.js" />
+        <option value="$PROJECT_DIR$/app/.meteor/packages" />
+        <option value="$PROJECT_DIR$/app/lib/accounts.js" />
+        <option value="$PROJECT_DIR$/app/client/stylesheets/mail.less" />
+        <option value="$PROJECT_DIR$/app/client/stylesheets/main.less" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="840" />
+    <option name="height" value="989" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master_layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".meteor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascriptnz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".iron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gardening" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="js.meteor.project" value="true" />
+    <property name="js.meteor.library.was.enabled" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascriptnz/app/server/publish.js" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="$USER_HOME$/bin/python-autoenv">
+        <option name="mySdkHome" value="$USER_HOME$/bin/python-autoenv" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/public" />
+      <recent name="$PROJECT_DIR$/app/lib/semantic-ui" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="javascriptnz" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="javascriptnz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="" />
+      <created>1459412926969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1459412926969</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="840" height="989" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2664437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#439#0#Spacebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development/mup.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/custom.semantic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#101#509#0#Spacebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/posts_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development/env.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.iron/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/production/mup.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <marker date="1459414674000" expanded="true" signature="0:1298" placeholder="{&quot;setupMongo&quot;: true...}" />
+            <marker date="1459414674000" expanded="true" signature="47:447" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development/mup.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/semantic-ui/custom.semantic.js" />
+    <entry file="file://$PROJECT_DIR$/app/lib/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/semantic-ui/definitions/behaviors/api.js" />
+    <entry file="file://$PROJECT_DIR$/app/lib/semantic-ui/custom.semantic.json" />
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/posts_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/custom.semantic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.floorc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/collections/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <marker date="1459425487000" expanded="true" signature="356:529" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/home_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#101#509#0#Spacebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/contactform/contactform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <marker date="1459427277000" expanded="true" signature="28:479" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#37#439#0#Spacebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

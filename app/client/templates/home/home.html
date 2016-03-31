@@ -1,5 +1,17 @@
 <template name="Home">
   <div class="home">
-    <h1>Find me in app/client/templates/home/home</h1>
+      <div class="ui vertical stripe segment">
+          {{#each posts}}
+          <div class="ui middle aligned stackable grid container">
+              <div class="row">
+                  <div class="eight wide column">
+                      <h3 class="ui header">{{title}}</h3>
+                      <div>{{{body}}}</div>
+                  </div>
+                  <div>{{usernameFromId createdBy}}</div>
+              </div>
+          </div>
+          {{/each}}
+      </div>
   </div>
 </template>
