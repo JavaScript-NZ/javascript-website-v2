@@ -1,23 +1,10 @@
 <template name="loginMenuItems">
-    {{#if loggedUser}}
-        <div class="item">
-            {{usernameFromId loggedUser._id}}
-            {{!--> avatar user=loggedUser shape='circle' class="valign navavatar" size="small" --}}
-        </div>
-        <div class="item">
-            <span class="signout">Sign out</span>
-        </div>
-    {{else}}
-        <div class="item">{{#linkTo route='atSignIn'}}Sign in{{/linkTo}}</div>
-    {{/if}}
+    {{>loginButtons}}
 </template>
+
 <template name="MasterLayout">
-    <!-- Sidebar Menu -->
-    <div class="ui vertical inverted sidebar menu">
-        {{>loginMenuItems}}
-    </div>
 
-
+    {{>Sidebar}}
     <!-- Page Contents -->
     <div class="pusher">
         {{>Header}}

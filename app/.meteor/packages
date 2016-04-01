@@ -15,7 +15,6 @@ tracker                 # Meteor's client-side reactive programming library
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-insecure                # Allow all DB writes from clients (for prototyping)
 iron:router
 orionjs:core
 orionjs:bootstrap
@@ -26,14 +25,14 @@ flemay:less-autoprefixer
 msavin:mongol
 orionjs:summernote
 orionjs:pages
-useraccounts:semantic-ui
+#useraccounts:semantic-ui
 utilities:avatar
 useraccounts:iron-routing
-accounts-ui
+#accounts-ui
 standard-minifier-css
 standard-minifier-js
-d4nyll:epic
 markdown
 patte:ghostdown
 underscore
 underscorestring:underscore.string
+iandouglas:accounts-ui-semantic-ui
