@@ -1,0 +1,17 @@
+<template name="Header">
+    <nav class="ui fixed top menu">
+        <div class="ui icon item menu-toggle">
+            <i class="sidebar icon"></i>
+        </div>
+        <div class="header">
+            <a class="ui header item" href="{{pathFor 'home'}}">
+                <div class="logo"></div>
+            </a>
+        </div>
+        <div class="right menu">
+            <a class="item">
+                {{>loginMenuItems}}
+            </a>
+        </div>
+    </nav>
+</template>

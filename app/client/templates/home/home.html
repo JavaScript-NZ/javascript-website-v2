@@ -4,9 +4,9 @@
           {{#each posts}}
           <div class="ui middle aligned stackable grid container">
               <div class="row">
-                  <div class="eight wide column">
+                  <div class="sixteen wide column">
                       <h3 class="ui header">{{title}}</h3>
-                      <div>{{{body}}}</div>
+                      <div>{{#markdown}}{{body}}{{/markdown}}</div>
                   </div>
                   <div>{{usernameFromId createdBy}}</div>
               </div>

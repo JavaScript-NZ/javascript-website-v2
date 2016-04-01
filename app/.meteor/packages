@@ -32,3 +32,8 @@ useraccounts:iron-routing
 accounts-ui
 standard-minifier-css
 standard-minifier-js
+d4nyll:epic
+markdown
+patte:ghostdown
+underscore
+underscorestring:underscore.string

@@ -7,7 +7,7 @@ Posts = new orion.collection('posts', {
         data: 'title',
         title: 'Title',
       },
-      orion.attributeColumn('summernote', 'body', 'Content'),
+      orion.attributeColumn('epic', 'body', 'Content'),
       orion.attributeColumn('createdBy', 'createdBy', 'Created By')
     ]
   }
@@ -18,7 +18,7 @@ PostsSchema = new SimpleSchema({
   title: {
     type: String
   },
-  body: orion.attribute('summernote', {
+  body: orion.attribute('epic', {
     label: 'Body'
   }),
   createdBy: orion.attribute('createdBy', {
