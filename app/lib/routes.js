@@ -1,9 +1,14 @@
 Router.configure({
   layoutTemplate: 'MasterLayout',
   loadingTemplate: 'Loading',
-  notFoundTemplate: 'NotFound'
+  notFoundTemplate: 'NotFound',
+  waitOn:function () {
+    return Meteor.subscribe('pages');
+  }
 });
 
+ReactiveTemplates.set('pages.loading', 'Loading');
+ReactiveTemplates.set('pages.notFound', 'NotFound');
 
 Router.route('/', {
   name: 'home',
