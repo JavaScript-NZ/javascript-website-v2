@@ -27,7 +27,6 @@ Template.Header.onRendered(function () {
       ;
     },
     onBottomPassed: function (calculations) {
-      console.dir(calculations.percentagePassed);
       $('.masthead')
         .css('background-color', 'rgba(255, 255, 255, 1');
       ;

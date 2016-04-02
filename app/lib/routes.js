@@ -16,15 +16,15 @@ Router.route('/', {
   where: 'client'
 });
 
-Router.route('/contact', {
-  name: 'contact',
-  controller: 'HomeController',
-  action: 'contact',
-  where: 'client'
-});
-
 Router.route('posts', {
   name: 'posts',
   controller: 'PostsController',
+  where: 'client'
+});
+
+
+Router.route('contact', {
+  name: 'enquiry',
+  controller: 'EnquiryController',
   where: 'client'
 });

@@ -1,23 +1,23 @@
 /*****************************************************************************/
-/* Contactform: Event Handlers */
+/* Enquiry: Event Handlers */
 /*****************************************************************************/
-Template.Contactform.events({
+Template.Enquiry.events({
 });
 
 /*****************************************************************************/
-/* Contactform: Helpers */
+/* Enquiry: Helpers */
 /*****************************************************************************/
-Template.Contactform.helpers({
+Template.Enquiry.helpers({
 });
 
 /*****************************************************************************/
-/* Contactform: Lifecycle Hooks */
+/* Enquiry: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Contactform.onCreated(function () {
+Template.Enquiry.onCreated(function () {
 });
 
-Template.Contactform.onRendered(function () {
+Template.Enquiry.onRendered(function () {
 });
 
-Template.Contactform.onDestroyed(function () {
+Template.Enquiry.onDestroyed(function () {
 });

@@ -1,0 +1,26 @@
+<template name="Enquiry">
+  <div class="enquiry">
+      <div class="ui middle aligned stackable grid container">
+          <div class="row">
+              <div class="sixteen wide column">
+                  <h2 class="ui center aligned icon header">
+                      <i class="comment icon"></i>
+                      Contact Us
+                  </h2>
+                      {{#autoForm id="enquiry_form" collection="Enquiry" type="method" meteormethod="sendEnquiry" template="semanticUI"}}
+                          {{> afQuickField name='name'}}
+                          <div class="two fields">
+                              {{> afQuickField name='email'}}
+                              {{> afQuickField name='phone' type="tel"}}
+                          </div>
+                          {{> afQuickField name='reason' value='committee'}}
+                          {{> afQuickField name='message'}}
+
+                          <button class="ui positive submit button" type="submit">Submit</button>
+                      {{/autoForm}}
+              </div>
+          </div>
+      </div>
+
+  </div>
+</template>

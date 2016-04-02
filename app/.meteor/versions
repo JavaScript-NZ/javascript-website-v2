@@ -37,6 +37,7 @@ ecmascript-runtime@0.2.8
 ejson@1.0.9
 email@1.0.10
 es5-shim@4.5.8
+fabienb4:autoform-semantic-ui@0.9.3
 fastclick@1.0.9
 flemay:less-autoprefixer@1.2.0
 geojson-utils@1.0.6

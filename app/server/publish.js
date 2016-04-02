@@ -18,3 +18,8 @@ Meteor.publish('all_users', function () {
 Meteor.publish('posts', function () {
   return Posts.find();
 });
+
+
+Meteor.publish('enquiry', function () {
+  return Enquiry.find();
+});
