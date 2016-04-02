@@ -252,9 +252,12 @@
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_iron-routing/1.13.1/web.browser/lib/templates_helpers/at_input.js" />
         <item url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.2/web.browser/id.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.41/web.browser/wrapper.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/meteorhacks_picker/1.0.3/web.browser/packages/meteorhacks_picker.js" />
         <item url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_options/1.0.1/web.browser/packages/nicolaslopezj_options.js" />
         <item url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_orion-admin-only-bootstrap/1.1.0/web.browser/packages/nicolaslopezj_orion-admin-only-bootstrap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_reactive-templates/1.2.1/web.browser/packages/nicolaslopezj_reactive-templates.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_orion-exporter/1.4.0/web.browser/exporter.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_orion-exporter/1.4.0/web.browser/exporter_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/utilities_avatar/0.9.2/web.browser/helpers.js" />
         <item url="file://$USER_HOME$/.meteor/packages/utilities_avatar/0.9.2/web.browser/utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/utilities_avatar/0.9.2/web.browser/export.js" />
@@ -834,9 +837,12 @@
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_iron-routing/1.13.1/web.browser/lib/templates_helpers/at_input.js" />
       <root url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.2/web.browser/id.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.41/web.browser/wrapper.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/meteorhacks_picker/1.0.3/web.browser/packages/meteorhacks_picker.js" />
       <root url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_options/1.0.1/web.browser/packages/nicolaslopezj_options.js" />
       <root url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_orion-admin-only-bootstrap/1.1.0/web.browser/packages/nicolaslopezj_orion-admin-only-bootstrap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_reactive-templates/1.2.1/web.browser/packages/nicolaslopezj_reactive-templates.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_orion-exporter/1.4.0/web.browser/exporter.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/nicolaslopezj_orion-exporter/1.4.0/web.browser/exporter_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/utilities_avatar/0.9.2/web.browser/helpers.js" />
       <root url="file://$USER_HOME$/.meteor/packages/utilities_avatar/0.9.2/web.browser/utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/utilities_avatar/0.9.2/web.browser/export.js" />

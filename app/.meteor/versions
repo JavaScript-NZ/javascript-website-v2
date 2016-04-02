@@ -72,6 +72,7 @@ meteor@1.1.12
 meteor-base@1.0.2
 meteor-platform@1.2.4
 meteorhacks:inject-initial@1.0.4
+meteorhacks:picker@1.0.3
 meteortoys:toykit@2.2.1
 minifier-css@1.1.9
 minifier-js@1.1.9
@@ -86,6 +87,7 @@ mongo-id@1.0.2
 msavin:mongol@1.6.2
 nicolaslopezj:options@1.0.1
 nicolaslopezj:orion-admin-only-bootstrap@1.1.0
+nicolaslopezj:orion-exporter@1.4.0
 nicolaslopezj:reactive-templates@1.2.1
 nicolaslopezj:roles@2.1.2
 nicolaslopezj:router-layer@0.0.11
