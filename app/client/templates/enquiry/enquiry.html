@@ -7,7 +7,7 @@
                       <i class="comment icon"></i>
                       Contact Us
                   </h2>
-                      {{#autoForm id="enquiry_form" collection="Enquiry" type="method" meteormethod="sendEnquiry" template="semanticUI"}}
+                      {{#autoForm id="enquiry_form" collection="Enquiry" type="method" meteormethod="server/method_name" template="semanticUI"}}
                           {{> afQuickField name='name'}}
                           <div class="two fields">
                               {{> afQuickField name='email'}}
