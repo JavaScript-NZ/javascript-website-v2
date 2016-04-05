@@ -304,6 +304,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_bootstrap/1.8.0/web.browser/init.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/components/quickForm/quickForm.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/components/afFormGroup/afFormGroup.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/multiply_iron-router-progress/1.0.2/web.browser/progress.coffee" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/inputTypes/select-checkbox-inline/select-checkbox-inline.css" />
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_bootstrap/1.8.0/web.browser/views/pages/pages.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/inputTypes/select-checkbox-inline/select-checkbox-inline.js" />
@@ -905,6 +906,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_bootstrap/1.8.0/web.browser/init.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/components/quickForm/quickForm.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/components/afFormGroup/afFormGroup.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/multiply_iron-router-progress/1.0.2/web.browser/progress.coffee" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/inputTypes/select-checkbox-inline/select-checkbox-inline.css" />
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_bootstrap/1.8.0/web.browser/views/pages/pages.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/inputTypes/select-checkbox-inline/select-checkbox-inline.js" />

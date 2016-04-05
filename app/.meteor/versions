@@ -87,6 +87,7 @@ momentjs:moment@2.12.0
 mongo@1.1.5
 mongo-id@1.0.2
 msavin:mongol@1.6.2
+multiply:iron-router-progress@1.0.2
 nicolaslopezj:options@1.0.1
 nicolaslopezj:orion-admin-only-bootstrap@1.1.0
 nicolaslopezj:orion-exporter@1.4.0
