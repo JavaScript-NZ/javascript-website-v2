@@ -6,6 +6,8 @@
         <div id="epicEditor" class="editor">
             {{#if this.value}}
                 {{> GhostEditor this.value}}
+                {{else}}
+                {{> GhostEditor ""}}
             {{/if}}
         </div>
     </div>
