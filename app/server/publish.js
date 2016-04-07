@@ -23,3 +23,7 @@ Meteor.publish('posts', function () {
 Meteor.publish('enquiry', function () {
   return Enquiry.find();
 });
+
+Meteor.publish('postCategory', function () {
+  return PostCategory.find();
+});
