@@ -23,6 +23,14 @@ Meteor.publish('posts', function (options) {
   return Posts.find({}, options);
 });
 
+Meteor.publish('published_posts', function (options) {
+  check(options, {
+    sort: Object,
+    limit: Number
+  });
+  return Posts.find({state:'published'}, options);
+});
+
 
 Meteor.publish('enquiry', function () {
   return Enquiry.find();
@@ -37,6 +45,6 @@ Meteor.publish('Comment', function () {
 });
 
 Meteor.publish('comments', function (postId) {
-  check(postId, String);
+  check(postId, Match.Maybe(String));
   return Comments.find({postId: postId});
 });

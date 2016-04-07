@@ -1,5 +1,6 @@
 <template name="Sidebar">
     <div class="ui vertical inverted sidebar menu">
+        <a href="{{pathFor route='post.list'}}" class="item">Blog</a>
         {{#each pages}}
             <a class="item" href="{{path}}">{{title}}</a>
         {{/each}}

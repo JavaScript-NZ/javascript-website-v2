@@ -8,6 +8,13 @@ Template.SinglePost.events({
 /* SinglePost: Helpers */
 /*****************************************************************************/
 Template.SinglePost.helpers({
+  'formatted': function (content) {
+    var converter = new Showdown.converter();
+    return converter.makeHtml(content);
+  },
+  'comments': function () {
+    return Comments.find({});
+  }
 });
 
 /*****************************************************************************/

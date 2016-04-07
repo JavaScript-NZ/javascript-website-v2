@@ -1,5 +1,40 @@
 <template name="SinglePost">
-  <div class="single-post">
-    <h1>Find me in app/client/templates/posts/single_post/single_post</h1>
+  <div class="ui container single-post">
+      <div class="content">
+          <a class="ui huge header" href="{{pathFor route='post.show'}}">{{title}}</a>
+          <div class="meta">
+              <span class="author">{{usernameFromId createdBy}}</span>
+          </div>
+          <div class="description">
+              {{{formatted body}}}
+          </div>
+      </div>
+      <div class="ui minimal comments">
+          <h3 class="ui dividing header">Comments</h3>
+          {{#each comments}}
+              <div class="comment">
+                  <div class="content">
+                      <a class="author">
+                          {{usernameFromId userId}}
+                      </a>
+                      <div class="metadata">
+                          {{moment submitted}}
+                      </div>
+                      <div class="text">
+                          {{body}}
+                      </div>
+                  </div>
+              </div>
+          {{/each}}
+          <form class="ui reply form">
+              <div class="field">
+                  <textarea></textarea>
+              </div>
+              <div class="ui blue labeled submit icon button">
+                  <i class="icon edit"></i> Add Reply
+              </div>
+          </form>
+      </div>
+
   </div>
 </template>

@@ -26,3 +26,7 @@ Template.registerHelper("usernameFromId", function (userId) {
 Template.registerHelper('loggedUser', function () {
   return Meteor.user();
 });
+
+Template.registerHelper('moment', function (time_req) {
+  return moment(time_req).fromNow();
+});

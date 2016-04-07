@@ -5,7 +5,7 @@ PostsController = RouteController.extend({
   
   waitOn: function () {
     return [
-      Meteor.subscribe('posts', {sort: {submitted: -1, _id: -1}, limit: 0}),
+      Meteor.subscribe('published_posts', {sort: {submitted: -1, _id: -1}, limit: 0}),
       Meteor.subscribe('all_users'),
       Meteor.subscribe('comments', this.params._id),
     ];
