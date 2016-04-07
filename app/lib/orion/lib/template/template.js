@@ -1,7 +1,6 @@
 if (Meteor.isClient) {
   Template.orionAttributesEpic.helpers({
     content: function () {
-      console.dir(this.value);
     }
 
   });
