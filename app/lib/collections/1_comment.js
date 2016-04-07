@@ -6,8 +6,27 @@ Comments = new orion.collection('comments', {
   },
   tabular: {
     columns: [
-      {data: 'author', title: 'Author'},
-      {data: 'postId', title: 'Post ID'},
+      {
+        data: 'userId',
+        title: 'Author',
+        render: function (val, type, doc) {
+          return Meteor.users.findOne(val).profile.name;
+        }
+      },
+      {
+        data: 'postId',
+        title: 'Post Title',
+        render: function (val, type, doc) {
+          return Posts.findOne(val).title;
+        }
+      },
+      {
+        data: 'body',
+        title: 'Body',
+        render: function (val, type, doc) {
+          return s(val).prune(20).value();
+        }
+      },
       orion.attributeColumn('createdAt', 'submitted', 'Submitted')
     ]
   }
@@ -30,7 +49,6 @@ Meteor.methods({
 
     comment = _.extend(commentAttributes, {
       userId: user._id,
-      author: user.username,
       submitted: new Date()
     });
 
@@ -43,20 +61,23 @@ Meteor.methods({
 });
 
 Comments.attachSchema(new SimpleSchema({
-  postId: {
+  postId: orion.attribute('hasOne', {
+    label: 'Post',
+  }, {
+    collection: Posts,
+    titleField: 'title',
+    publicationName: 'PB_Comment_Post'
+  }),
+  userId: orion.attribute('hasOne', {
     type: String,
-    optional: false,
-    label: 'Post ID'
-  },
-  userId: {
-    type: String,
-    optional: false,
-    label: 'User ID',
-  },
-  author: {
-    type: String,
-    optional: false,
-  },
+    label: 'Author',
+    optional: false
+  }, {
+    collection: Meteor.users,
+    // the key whose value you want to show for each Post document on the Update form
+    titleField: 'profile.name',
+    publicationName: 'anotherRandomString',
+  }),
   submitted: {
     type: Date,
     optional: false,
