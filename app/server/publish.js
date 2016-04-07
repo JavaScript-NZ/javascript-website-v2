@@ -27,3 +27,7 @@ Meteor.publish('enquiry', function () {
 Meteor.publish('postCategory', function () {
   return PostCategory.find();
 });
+
+Meteor.publish('Comment', function () {
+  return Comment.find();
+});

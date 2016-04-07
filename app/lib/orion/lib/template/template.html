@@ -1,15 +1,6 @@
 <template name="orionAttributesEpic">
     <div class="orionEpic" {{ this.atts }}>
-        <div class="hidden">
-            {{content}}
-        </div>
-        <div id="epicEditor" class="editor">
-            {{#if this.value}}
-                {{> GhostEditor this.value}}
-                {{else}}
-                {{> GhostEditor ""}}
-            {{/if}}
-        </div>
+        {{> MDEdit id="MDEEditor" defaultContent=this.value }}
     </div>
 </template>
 

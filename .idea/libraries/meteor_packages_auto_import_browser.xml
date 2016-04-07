@@ -344,6 +344,8 @@
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_config/1.8.0/web.browser/config.js" />
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_config/1.8.0/web.browser/config_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/components/afObjectField/afObjectField.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/lyuyea_md-editor/0.4.0/web.browser/packages/lyuyea_md-editor.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/lyuyea_md-editor/0.4.0/web.browser/packages/lyuyea_md-editor/theme.css" />
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_dictionary/1.8.0/web.browser/admin.js" />
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_dictionary/1.8.0/web.browser/dictionary.js" />
         <item url="file://$USER_HOME$/.meteor/packages/orionjs_dictionary/1.8.0/web.browser/dictionary_client.js" />
@@ -386,6 +388,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_account/account.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_header/header.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/doc_controls/docControls.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/perak_markdown/1.0.5/web.browser/packages/perak_markdown.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_account/accountViewer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/idorecall_email-normalize/1.0.0/web.browser/packages/idorecall_email-normalize.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_collection/collections.js" />
@@ -951,6 +954,8 @@
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_config/1.8.0/web.browser/config.js" />
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_config/1.8.0/web.browser/config_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/components/afObjectField/afObjectField.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/lyuyea_md-editor/0.4.0/web.browser/packages/lyuyea_md-editor.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/lyuyea_md-editor/0.4.0/web.browser/packages/lyuyea_md-editor/theme.css" />
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_dictionary/1.8.0/web.browser/admin.js" />
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_dictionary/1.8.0/web.browser/dictionary.js" />
       <root url="file://$USER_HOME$/.meteor/packages/orionjs_dictionary/1.8.0/web.browser/dictionary_client.js" />
@@ -993,6 +998,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_account/account.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_header/header.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/doc_controls/docControls.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/perak_markdown/1.0.5/web.browser/packages/perak_markdown.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_account/accountViewer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/idorecall_email-normalize/1.0.0/web.browser/packages/idorecall_email-normalize.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_collection/collections.js" />

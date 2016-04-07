@@ -8,6 +8,7 @@ orion.attributes.registerAttribute('epic', {
   },
   valueOut: function () {
     // return Session.get('editor-markdown');
-    return document.getElementById('entry-markdown-content').innerText;
+    // return document.getElementById('entry-markdown-content').innerText;
+    return MDEdit.MDEEditor.value();
   },
 });

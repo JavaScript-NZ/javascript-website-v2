@@ -1,8 +1,9 @@
 if (Meteor.isClient) {
   Template.orionAttributesEpic.helpers({
-    content: function () {
-    }
+  });
 
+  Template.orionAttributesEpic.onRendered(function () {
+    // $('#MDEEditor').markdown();
   });
 
   Template.orionAttributesEpicColumn.helpers({

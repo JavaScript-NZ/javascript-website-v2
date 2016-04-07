@@ -1,0 +1,8 @@
+{
+  "name": "JavascriptNZ",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "meteor-node-stubs": "^0.2.1"
+  }
+}

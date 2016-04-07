@@ -24,4 +24,8 @@ if (Meteor.isClient) {
   Accounts.config({
     forbidClientAccountCreation: false
   });
+  Accounts.ui.config({
+    passwordSignupFields: 'USERNAME_AND_EMAIL'
+  });
 }
+

@@ -28,3 +28,10 @@ Router.route('contact', {
   controller: 'EnquiryController',
   where: 'client'
 });
+
+
+Router.route('comment', {
+  name: 'comment',
+  controller: 'CommentController',
+  where: 'client'
+});
