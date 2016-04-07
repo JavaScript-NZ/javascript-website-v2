@@ -1,0 +1,23 @@
+<template name="PostsList">
+  <div class="ui posts-list divided relaxed items container">
+    {{#each posts}}
+        <div class="ui item">
+            <div class="content">
+                <a class="ui huge header" href="{{pathFor route='post.show'}}">{{title}}</a>
+                <div class="meta">
+                    <span class="author">{{usernameFromId createdBy}}</span>
+                </div>
+                <div class="description">
+                    {{{preview body}}}
+                </div>
+                <div class="extra">
+                    <a href="{{pathFor route='post.show'}}" class="ui right floated primary button">
+                        Read more
+                        <i class="right chevron icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+  </div>
+</template>
