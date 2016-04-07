@@ -3,11 +3,13 @@ accounts-password@1.1.6
 aldeed:autoform@5.8.1
 aldeed:collection2@2.9.1
 aldeed:collection2-core@1.1.1
+aldeed:delete-button@2.0.0
 aldeed:schema-deny@1.0.1
 aldeed:schema-index@1.0.1
 aldeed:simple-schema@1.5.3
 aldeed:tabular@1.6.0
 allow-deny@1.0.2
+andrei:jquery-truncate@0.0.2
 anti:i18n@0.4.3
 audit-argument-checks@1.0.5
 autoupdate@1.2.6

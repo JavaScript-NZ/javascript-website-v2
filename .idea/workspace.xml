@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/orion/comments/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/orion/comments/comments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/templates/orion/comments/comments.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/client/templates/posts/posts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/client/templates/posts/posts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/client/templates/posts/posts.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/packages" afterPath="$PROJECT_DIR$/app/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/versions" afterPath="$PROJECT_DIR$/app/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.overrides.import.less" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.overrides.import.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.variables.import.less" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.variables.import.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/collections/1_comment.js" afterPath="$PROJECT_DIR$/app/lib/collections/1_comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/controllers/posts_controller.js" afterPath="$PROJECT_DIR$/app/lib/controllers/posts_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/routes.js" afterPath="$PROJECT_DIR$/app/lib/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/publish.js" afterPath="$PROJECT_DIR$/app/server/publish.js" />
     </list>
     <ignored path="javascriptnz.iws" />
@@ -29,61 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/orion/markdown_editor_template/template.html">
+      <file leaf-file-name="posts_list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orion-markdown-attribute.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/orion/lib/orion-markdown-attribute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/orion/options.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/orion/markdown_editor_template/template.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1_comment.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/lib/collections/1_comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/orion/comments/comments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="522">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,21 +48,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/server/publish.js">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="324">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/development/settings.json">
+      <file leaf-file-name="posts_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="90">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/controllers/posts_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single_post.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/server/publish.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/lib/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/footer/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,12 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/packages/orion-markdown/client/orion-markdown.js" />
-        <option value="$PROJECT_DIR$/app/packages/orion-markdown/lib/template/template.html" />
-        <option value="$PROJECT_DIR$/app/packages/orion-markdown/lib/template/template.js" />
-        <option value="$PROJECT_DIR$/app/packages/orion-markdown/package.js" />
-        <option value="$PROJECT_DIR$/app/lib/orion/orion-markdown-attribute.js" />
-        <option value="$PROJECT_DIR$/app/client/templates/home/home.html" />
         <option value="$PROJECT_DIR$/config/development/mup.json" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.import.less" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -155,7 +156,6 @@
         <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.html" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.js" />
-        <option value="$PROJECT_DIR$/app/lib/routes.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/post_category.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/enquiry.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/posts.js" />
@@ -177,9 +177,16 @@
         <option value="$PROJECT_DIR$/app/lib/orion/lib/orion-markdown-attribute.js" />
         <option value="$PROJECT_DIR$/app/lib/orion/lib/template/template.less" />
         <option value="$PROJECT_DIR$/config/development/settings.json" />
-        <option value="$PROJECT_DIR$/app/server/publish.js" />
         <option value="$PROJECT_DIR$/app/client/templates/orion/comments/comments.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/1_comment.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.js" />
+        <option value="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.variables.import.less" />
+        <option value="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.overrides.import.less" />
+        <option value="$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.variables.import.less" />
+        <option value="$PROJECT_DIR$/app/lib/routes.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.html" />
+        <option value="$PROJECT_DIR$/app/lib/controllers/posts_controller.js" />
+        <option value="$PROJECT_DIR$/app/server/publish.js" />
       </list>
     </option>
   </component>
@@ -511,6 +518,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="single_post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts_list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="orion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -559,6 +626,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript-website-v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -589,7 +734,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;pack&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/node_modules/simplemde/node_modules/codemirror/package.json&#10;template.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.js&#10;main&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/stylesheets/main.less&#10;header.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/header/header.js&#10;template.less&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.less" />
+    <property name="SearchEverywhereHistoryKey" value="publis&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;site.impor&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;postscon&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/controllers/posts_controller.js&#10;route&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/routes.js&#10;pack&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/node_modules/simplemde/node_modules/codemirror/package.json&#10;template.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.js&#10;main&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/stylesheets/main.less&#10;header.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/header/header.js&#10;template.less&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.less" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -961,7 +1106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460054045447</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="comments admin">
+      <created>1460057038991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1460057038991</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -970,16 +1122,16 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26867336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26867336" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1016,7 +1168,8 @@
     <MESSAGE value="fix for blank content data" />
     <MESSAGE value="use simplemdedit (wonky markdown with previous editor)" />
     <MESSAGE value="cloudinary uploads&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="cloudinary uploads&#10;" />
+    <MESSAGE value="comments admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,168 +1178,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <marker date="1459882173000" expanded="true" signature="76:187" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1459882186000" expanded="true" signature="214:323" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/post_category.js" />
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1460015011000" expanded="true" signature="5:312" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/enquiry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.meteor/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/simplemde/node_modules/codemirror/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/spell-checker/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/Meteor/lib/Meteor.jar!/tsMeteorStubs/meteor-v1.2.0.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="276" column="32" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/accounts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/bootstrap-markdown/.meteor-portable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/bootstrap-markdown/.npmignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/bootstrap-markdown/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/bootstrap-markdown/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/bootstrap-markdown/js/bootstrap-markdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/node_modules/bootstrap-markdown/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1372,7 +1363,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
+          <folding>
+            <marker date="1460046564000" expanded="true" signature="14:105" placeholder="{...}" />
+            <marker date="1460046564000" expanded="true" signature="34:101" placeholder="{&quot;cloud_name&quot;: &quot;avwave&quot;...}" />
+            <marker date="1460046564000" expanded="true" signature="120:298" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,26 +1387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/orion/markdown_editor_template/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/collections/0_posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1429,15 +1408,194 @@
         <state relative-caret-position="448">
           <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1460055732000" expanded="true" signature="847:952" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/collections/1_comment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="324">
+          <caret line="91" column="7" selection-start-line="88" selection-start-column="5" selection-end-line="91" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/orion/markdown_editor_template/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/breadcrumb.overrides.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/globals/reset.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.variables.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/views/item.overrides.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/theme.config.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/custom.semantic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-774">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/globals/site.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="86" column="1" selection-start-line="71" selection-start-column="0" selection-end-line="86" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/views/item.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.variables.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.overrides.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/globals/site.variables.import.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="70" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/footer/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/lib/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/controllers/posts_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding />
         </state>
       </provider>

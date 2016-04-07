@@ -86,8 +86,8 @@ Comments.attachSchema(new SimpleSchema({
     type: String,
     optional: false,
   },
-  image: orion.attribute('image', {
-    optional: true,
-    label: 'Comment Image'
-  })
+  // image: orion.attribute('image', {
+  //   optional: true,
+  //   label: 'Comment Image'
+  // })
 }));

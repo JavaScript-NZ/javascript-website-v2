@@ -195,6 +195,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/test_responder.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/andrei_jquery-truncate/0.0.2/web.browser/packages/andrei_jquery-truncate.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/raix_eventemitter/0.1.3/web.browser/packages/raix_eventemitter.js" />
@@ -462,6 +463,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.9/web.browser/optimizer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/srp/1.0.6/web.browser/srp.js" />
         <item url="file://$USER_HOME$/.meteor/packages/srp/1.0.6/web.browser/srp_tests.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aldeed_delete-button/2.0.0/web.browser/delete-button.js" />
         <item url="file://$USER_HOME$/.meteor/packages/srp/1.0.6/web.browser/biginteger.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fabienb4_autoform-semantic-ui/0.9.3/web.browser/templates/semantic-ui/inputTypes/radio/radio.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fabienb4_autoform-semantic-ui/0.9.3/web.browser/templates/semantic-ui/inputTypes/reset/reset.js" />
@@ -816,6 +818,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/test_responder.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/andrei_jquery-truncate/0.0.2/web.browser/packages/andrei_jquery-truncate.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.3/web.browser/httpcall_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/raix_eventemitter/0.1.3/web.browser/packages/raix_eventemitter.js" />
@@ -1083,6 +1086,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.9/web.browser/optimizer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/srp/1.0.6/web.browser/srp.js" />
       <root url="file://$USER_HOME$/.meteor/packages/srp/1.0.6/web.browser/srp_tests.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aldeed_delete-button/2.0.0/web.browser/delete-button.js" />
       <root url="file://$USER_HOME$/.meteor/packages/srp/1.0.6/web.browser/biginteger.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fabienb4_autoform-semantic-ui/0.9.3/web.browser/templates/semantic-ui/inputTypes/radio/radio.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fabienb4_autoform-semantic-ui/0.9.3/web.browser/templates/semantic-ui/inputTypes/reset/reset.js" />

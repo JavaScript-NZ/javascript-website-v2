@@ -35,3 +35,8 @@ Meteor.publish('postCategory', function () {
 Meteor.publish('Comment', function () {
   return Comment.find();
 });
+
+Meteor.publish('comments', function (postId) {
+  check(postId, String);
+  return Comments.find({postId: postId});
+});

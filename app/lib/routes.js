@@ -17,8 +17,16 @@ Router.route('/', {
 });
 
 Router.route('posts', {
-  name: 'posts',
+  name: 'post.list',
   controller: 'PostsController',
+  action: 'list',
+  where: 'client'
+});
+
+Router.route('posts/:_id', {
+  name: 'post.show',
+  controller: 'PostsController',
+  action: 'show',
   where: 'client'
 });
 
