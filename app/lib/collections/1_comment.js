@@ -8,7 +8,7 @@ Comments = new orion.collection('comments', {
     columns: [
       {data: 'author', title: 'Author'},
       {data: 'postId', title: 'Post ID'},
-      {data: 'submitted', title: 'Submitted'}
+      orion.attributeColumn('createdAt', 'submitted', 'Submitted')
     ]
   }
 });
@@ -28,10 +28,45 @@ Meteor.methods({
       throw new Meteor.Error('invalid-comment', 'You must comment on a post');
     }
 
-    commentAttributes = _.extend(commentAttributes, {
+    comment = _.extend(commentAttributes, {
       userId: user._id,
       author: user.username,
-      
-    })
+      submitted: new Date()
+    });
+
+    Posts.update(comment.postId, {$inc: {commentsCount: 1}});
+    comment._id = Comments.insert(comment);
+
+  //  Todo: add comment notifications
+    return comment._id;
   }
 });
+
+Comments.attachSchema(new SimpleSchema({
+  postId: {
+    type: String,
+    optional: false,
+    label: 'Post ID'
+  },
+  userId: {
+    type: String,
+    optional: false,
+    label: 'User ID',
+  },
+  author: {
+    type: String,
+    optional: false,
+  },
+  submitted: {
+    type: Date,
+    optional: false,
+  },
+  body: {
+    type: String,
+    optional: false,
+  },
+  image: orion.attribute('image', {
+    optional: true,
+    label: 'Comment Image'
+  })
+}));

@@ -64,6 +64,7 @@ jparker:gravatar@0.4.1
 jquery@1.11.6
 lai:collection-extensions@0.2.1_1
 launch-screen@1.0.8
+lepozepo:cloudinary@4.1.3
 less@2.5.6
 livedata@1.0.16
 localstorage@1.0.7
@@ -108,7 +109,9 @@ orionjs:collections@1.8.0
 orionjs:config@1.8.0
 orionjs:core@1.8.0
 orionjs:dictionary@1.8.0
+orionjs:file-attribute@1.8.0
 orionjs:filesystem@1.8.0
+orionjs:image-attribute@1.8.0
 orionjs:lang-en@1.8.0
 orionjs:pages@1.8.0
 orionjs:relationships@1.8.0
@@ -124,6 +127,7 @@ reactive-var@1.0.7
 reload@1.1.6
 retry@1.0.5
 routepolicy@1.0.8
+rwatts:orionjs-cloudinary@1.0.1
 semantic:ui@2.1.8
 semantic:ui-data@2.1.8
 service-configuration@1.0.7
