@@ -1,0 +1,31 @@
+<template name="Join">
+  <div class="join">
+      <div class="ui middle aligned stackable grid container">
+          <div class="row">
+              <div class="sixteen wide column">
+                  <h2 class="ui center aligned icon header">
+                      <i class="users icon"></i>
+                      Become a Member
+                  </h2>
+
+                  <p>In order to help pursure our goals of supporting and promoting JavaScript across New Zealand, we
+                      ask that a small membership fee be paid yearly.</p>
+                  <p>We have a reduced membership fee for students.</p>
+                  <p>We do not wish a membership fee to exclude anyone; if paying the membership fee would be unduely
+                      difficult for you, please {{#linkTo route='enquiry' }} contact the JavaScript NZ Committee {{/linkTo}}.</p>
+
+
+                  {{#autoForm id="join_form" schema=JoinFormSchema type="method" meteormethod="server/method_name" template="semanticUI"}}
+                      {{> afQuickField name='name'}}
+                      {{> afQuickField name='email'}}
+                      {{> afQuickField name='password'}}
+                      {{> afQuickField name='membership' value='regular'}}
+                      {{> afQuickField name='agreeRules' value='false'}}
+                      {{> afQuickField name='agreeCoC' value='false'}}
+                      <button class="ui positive submit button" type="submit">Submit</button>
+                  {{/autoForm}}
+              </div>
+          </div>
+      </div>
+  </div>
+</template>

@@ -37,6 +37,11 @@ Router.route('contact', {
   where: 'client'
 });
 
+Router.route('join', {
+  name: 'join',
+  controller: 'JoinController',
+  where: 'client'
+});
 
 Router.route('comment', {
   name: 'comment',
