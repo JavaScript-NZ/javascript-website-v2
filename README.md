@@ -12,6 +12,6 @@ Links below:
 
 Ping me on slack (@veb) for admin access if you're interested.
 
-I hope people start putting in some issues an bugs into the GitHub repo :)
+I hope people start putting in some issues and bugs into the GitHub repo :)
 
 Mike
