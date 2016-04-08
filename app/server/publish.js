@@ -48,3 +48,7 @@ Meteor.publish('comments', function (postId) {
   check(postId, Match.Maybe(String));
   return Comments.find({postId: postId});
 });
+
+Meteor.publish('photos', function () {
+  return Photos.find();
+});

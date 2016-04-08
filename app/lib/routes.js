@@ -48,3 +48,25 @@ Router.route('comment', {
   controller: 'CommentController',
   where: 'client'
 });
+
+
+Router.route('photos', {
+  name: 'photos',
+  controller: 'PhotosController',
+  where: 'client'
+});
+
+
+Router.route('photos', {
+  name: 'photo.list',
+  controller: 'PhotosController',
+  action: 'list',
+  where: 'client'
+});
+
+Router.route('photos/:_id', {
+  name: 'photo.show',
+  controller: 'PhotosController',
+  action: 'show',
+  where: 'client'
+});
