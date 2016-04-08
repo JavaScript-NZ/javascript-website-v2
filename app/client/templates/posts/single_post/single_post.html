@@ -26,14 +26,20 @@
                   </div>
               </div>
           {{/each}}
+
+          {{#if loggedUser}}
           <form class="ui reply form">
+              <input type="hidden" name="postId" value="{{_id}}">
               <div class="field">
-                  <textarea></textarea>
+                  <textarea name="body" class="comment_field"></textarea>
               </div>
-              <div class="ui blue labeled submit icon button">
+              <div class="ui blue labeled comment_submit icon button">
                   <i class="icon edit"></i> Add Reply
               </div>
           </form>
+          {{else}}
+              <button class="fluid ui positive button login_warning">Sign in to comment</button>
+          {{/if}}
       </div>
 
   </div>

@@ -27,26 +27,28 @@
 
 }
 
+@headerColor: #0074D9;
 .hero {
   position: relative;
   z-index: 20;
 
+  background-color: darken(@headerColor, 0%);
   height: 319px;
-  background: url("/images/splash-1024.jpg") no-repeat scroll center center / cover #333;
+  //background: url("/images/splash-1024.jpg") no-repeat scroll center center / cover #333;
 
   @media (min-width: 1025px) {
     height: 370px;
-    background-image: url('/images/splash-1440.jpg');
+    //background-image: url('/images/splash-1440.jpg');
   }
 
   @media (min-width: 1441px) {
     height: 430px;
-    background-image: url('/images/splash-1920.jpg');
+    //background-image: url('/images/splash-1920.jpg');
   }
 
   @media (min-width: 1920px) {
     height: 500px;
-    background-image: url('/images/splash-2560.jpg');
+    //background-image: url('/images/splash-2560.jpg');
   }
 
   text-align: center;
