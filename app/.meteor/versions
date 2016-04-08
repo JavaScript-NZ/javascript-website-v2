@@ -103,6 +103,7 @@ npm-bcrypt@0.7.8_2
 npm-mongo@1.4.41
 observe-sequence@1.0.9
 ordered-dict@1.0.5
+orion-cloudinary@1.0.0
 orionjs:accounts@1.8.1
 orionjs:attributes@1.8.0
 orionjs:base@1.8.0
@@ -129,7 +130,6 @@ reactive-var@1.0.7
 reload@1.1.6
 retry@1.0.5
 routepolicy@1.0.8
-rwatts:orionjs-cloudinary@1.0.1
 semantic:ui@2.1.8
 semantic:ui-data@2.1.8
 service-configuration@1.0.7

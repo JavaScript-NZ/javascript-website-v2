@@ -43,7 +43,6 @@ audit-argument-checks
 multiply:iron-router-progress
 orionjs:relationships
 lyuyea:md-editor
-rwatts:orionjs-cloudinary
 orionjs:filesystem
 orionjs:image-attribute
 orionjs:file-attribute
@@ -51,3 +50,4 @@ random
 aldeed:delete-button
 andrei:jquery-truncate
 momentjs:moment
+orion-cloudinary
