@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/stylesheets/main.less" afterPath="$PROJECT_DIR$/app/client/stylesheets/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" afterPath="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" afterPath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html" afterPath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.js" afterPath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/collections/1_comment.js" afterPath="$PROJECT_DIR$/app/lib/collections/1_comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" afterPath="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" />
     </list>
     <ignored path="javascriptnz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="540">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -59,7 +55,6 @@
               <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding>
                 <element signature="e#508#1014#0#Spacebars" expanded="true" />
-                <marker date="1460116848000" expanded="true" signature="1042:1574" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -105,12 +100,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" />
         <option value="$PROJECT_DIR$/app/server/methods.js" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/footer/footer.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/post_category.js" />
@@ -182,8 +188,9 @@
         <option value="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.js" />
         <option value="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html" />
         <option value="$PROJECT_DIR$/app/client/stylesheets/main.less" />
-        <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
       </list>
     </option>
   </component>
@@ -1266,7 +1273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460114216064</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="comment to post">
+      <created>1460117891733</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1460117891733</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1325,7 +1339,8 @@
     <MESSAGE value="post lists" />
     <MESSAGE value="alternate header hero" />
     <MESSAGE value="svg logo with coloring" />
-    <option name="LAST_COMMIT_MESSAGE" value="svg logo with coloring" />
+    <MESSAGE value="comment to post" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment to post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1334,14 +1349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/packages/markdown-bootstrap/client/markdown-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1724,17 +1731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-          <folding>
-            <element signature="e#508#1014#0#Spacebars" expanded="true" />
-            <marker date="1460116848000" expanded="true" signature="1042:1574" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1745,11 +1741,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
+    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="562">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="e#508#1014#0#Spacebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1757,6 +1765,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>

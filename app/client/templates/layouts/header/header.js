@@ -25,11 +25,32 @@ Template.Header.onRendered(function () {
       $('.masthead')
         .css('background-color', newColor)
       ;
+
+      var blackinvertColor = 'rgb(' +
+          Math.floor(255 * (1-calculations.percentagePassed)) + ',' +
+          Math.floor(255 * (1-calculations.percentagePassed)) + ',' +
+          Math.floor(255 * (1-calculations.percentagePassed)) +
+          ')';
+
+      $('.toc>.sidebar').css('color', blackinvertColor);
+      $('#login-dropdown').css('color', blackinvertColor);
+
+      var rcolor = 'rgb(' +
+        0 + ',' +
+        Math.floor(116 - (116 * calculations.percentagePassed) ) + ',' +
+        Math.floor(217 - (217 * calculations.percentagePassed) ) +
+        ')';
+
+      $('g.logotext').css('fill', rcolor);
+
     },
     onBottomPassed: function (calculations) {
       $('.masthead')
         .css('background-color', 'rgba(255, 255, 255, 1');
       ;
+      $('g.logotext').css('fill', 'rgb(0, 0, 0');
+      $('.toc>.sidebar').css('color', '#000');
+      $('#login-dropdown').css('color', '#000');
     }
   })
 });
