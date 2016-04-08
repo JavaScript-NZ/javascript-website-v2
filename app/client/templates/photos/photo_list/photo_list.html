@@ -1,26 +1,23 @@
 <template name="PhotoList">
     <div class="ui photo-list link cards container">
-        {{#each posts}}
-            <div class="ui card">
+        {{#each photos}}
+            <a class="ui card" href="{{pathFor route='photo.show'}}">
                 <div class="image">
-                    <img src="{{c.url public_id width=250 height=250 crop="fill"}}">
+                    <img src="{{image.url}}">
                 </div>
                 <div class="content">
-                    <a class="header" href="{{pathFor route='photo.show'}}">{{title}}</a>
+                    <div class="header">{{title}}</div>
                     <div class="meta">
                         <span class="author">{{usernameFromId createdBy}}</span>
                     </div>
                     <div class="description">
                         {{{preview body}}}
                     </div>
-                    <div class="extra">
-                        <a href="{{pathFor route='post.show'}}" class="ui right floated primary button">
-                            Read more
-                            <i class="right chevron icon"></i>
-                        </a>
+                    <div class="extra content">
+                        <span class="right floated">{{moment createdAt}}</span>
                     </div>
                 </div>
-            </div>
+            </a>
         {{/each}}
     </div>
 </template>

@@ -30,6 +30,10 @@ HomeController = RouteController.extend({
   contact: function (){
     this.render('Contactform');
   },
+  
+  index: function() {
+    this.redirect('/main');
+  },
   // You can provide any of the hook options
   
   onRun: function () {

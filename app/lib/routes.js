@@ -13,6 +13,7 @@ ReactiveTemplates.set('pages.notFound', 'NotFound');
 Router.route('/', {
   name: 'home',
   controller: 'HomeController',
+  action: 'index',
   where: 'client'
 });
 
@@ -51,13 +52,6 @@ Router.route('comment', {
 
 
 Router.route('photos', {
-  name: 'photos',
-  controller: 'PhotosController',
-  where: 'client'
-});
-
-
-Router.route('photos', {
   name: 'photo.list',
   controller: 'PhotosController',
   action: 'list',
@@ -68,5 +62,12 @@ Router.route('photos/:_id', {
   name: 'photo.show',
   controller: 'PhotosController',
   action: 'show',
+  where: 'client'
+});
+
+
+Router.route('photo_comments', {
+  name: 'photoComments',
+  controller: 'PhotoCommentsController',
   where: 'client'
 });

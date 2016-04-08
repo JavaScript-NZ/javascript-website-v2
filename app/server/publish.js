@@ -52,3 +52,8 @@ Meteor.publish('comments', function (postId) {
 Meteor.publish('photos', function () {
   return Photos.find();
 });
+
+
+Meteor.publish('PhotoComments', function () {
+  return PhotoComments.find();
+});

@@ -1,5 +1,43 @@
 <template name="SinglePhoto">
-  <div class="single-photo">
-    <h1>Find me in app/client/templates/photos/single_photo/single_photo</h1>
+  <div class="ui container single-photo">
+    <div class="ui segment">
+        <div class="ui header">{{title}}</div>
+        <img class="ui fluid image" src="{{image.url}}">
+        <div class="content">
+            {{#markdown}}{{body}}{{/markdown}}
+        </div>
+    </div>
+    <div class="ui minimal comments">
+        <h3 class="ui dividing header">Comments</h3>
+        {{#each comments}}
+            <div class="comment">
+                <div class="content">
+                    <a class="author">
+                        {{usernameFromId userId}}
+                    </a>
+                    <div class="metadata">
+                        {{moment submitted}}
+                    </div>
+                    <div class="text">
+                        {{body}}
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+
+        {{#if loggedUser}}
+            <form class="ui reply form">
+                <input type="hidden" name="postId" value="{{_id}}">
+                <div class="field">
+                    <textarea name="body" class="comment_field"></textarea>
+                </div>
+                <div class="ui blue labeled comment_submit icon button">
+                    <i class="icon edit"></i> Add Reply
+                </div>
+            </form>
+        {{else}}
+            <button class="fluid ui positive button login_warning">Sign in to comment</button>
+        {{/if}}
+    </div>
   </div>
 </template>
