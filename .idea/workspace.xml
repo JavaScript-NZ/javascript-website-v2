@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.variables.import.less" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.variables.import.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/stylesheets/main.less" afterPath="$PROJECT_DIR$/app/client/stylesheets/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" afterPath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.less" afterPath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" afterPath="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
     </list>
     <ignored path="javascriptnz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+            <state relative-caret-position="324">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="e#489#17230#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -98,7 +108,6 @@
         <option value="$PROJECT_DIR$/app/client/templates/layouts/footer/footer.html" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" />
-        <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/post_category.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/enquiry.js" />
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/client/lib/semantic-ui/site/globals/site.variables.import.less" />
         <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html" />
         <option value="$PROJECT_DIR$/app/client/stylesheets/main.less" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/header/header.html" />
       </list>
     </option>
   </component>
@@ -1351,7 +1361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460067885974</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="alternate header hero">
+      <created>1460107731697</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1460107731697</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1366,7 +1383,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26867336" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2742475" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2706767" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1408,7 +1425,8 @@
     <MESSAGE value="cloudinary uploads&#10;" />
     <MESSAGE value="comments admin" />
     <MESSAGE value="post lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="post lists" />
+    <MESSAGE value="alternate header hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="alternate header hero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1793,14 +1811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/themes/default/globals/site.variables.import.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1835,8 +1845,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/stylesheets/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+        <state relative-caret-position="324">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#489#17230#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
