@@ -1,7 +1,10 @@
 # javascriptnz
-Access demo at [http://staging.javascript.org.nz/](http://staging.javascript.org.nz/)
-Admin is at [http://staging.javascript.org.nz/](http://staging.javascript.org.nz/)
 
+Links below:
+
+
+- http://staging.javascript.org.nz/
+- http://staging.javascript.org.nz/admin
 - http://staging.javascript.org.nz/contact
 - http://staging.javascript.org.nz/join
 - http://staging.javascript.org.nz/photos
