@@ -17,6 +17,13 @@ Router.route('/', {
   where: 'client'
 });
 
+Router.route('sink', {
+  name: 'sink',
+  controller: 'HomeController',
+  action: 'sink',
+  where: 'client'
+});
+
 Router.route('posts', {
   name: 'post.list',
   controller: 'PostsController',

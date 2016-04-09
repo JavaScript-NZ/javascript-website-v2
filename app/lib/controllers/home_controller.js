@@ -6,7 +6,6 @@ HomeController = RouteController.extend({
   // this.subscribe('item', this.params._id).wait();
   
   subscriptions: function() {
-    Meteor.subscribe("posts");
     Meteor.subscribe('all_users')
   },
   
@@ -33,6 +32,10 @@ HomeController = RouteController.extend({
   
   index: function() {
     this.redirect('/main');
+  },
+
+  sink: function () {
+    this.render('Home', {});
   },
   // You can provide any of the hook options
   

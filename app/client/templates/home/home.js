@@ -20,6 +20,7 @@ Template.Home.onCreated(function () {
 });
 
 Template.Home.onRendered(function () {
+  $('.data-switch .item').tab();
 });
 
 Template.Home.onDestroyed(function () {
