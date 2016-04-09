@@ -6,7 +6,7 @@
               <span class="author">{{usernameFromId createdBy}}</span>
           </div>
           <div class="description">
-              {{{formatted body}}}
+              {{#markdown}}{{body}}{{/markdown}}
           </div>
       </div>
       <div class="ui minimal comments">

@@ -5,8 +5,9 @@ PhotosController = RouteController.extend({
   
   waitOn: function () {
     return [
-      Meteor.subscribe('photos'),
+      Meteor.subscribe('published_photos', {sort: {submitted: -1, _id: -1}, limit: 0}),
       Meteor.subscribe('all_users'),
+      Meteor.subscribe('photoComments', this.params._id),
     ]
   },
   

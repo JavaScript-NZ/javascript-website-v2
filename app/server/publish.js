@@ -49,11 +49,24 @@ Meteor.publish('comments', function (postId) {
   return Comments.find({postId: postId});
 });
 
-Meteor.publish('photos', function () {
-  return Photos.find();
+Meteor.publish('photos', function (options) {
+  check(options, {
+    sort: Object,
+    limit: Number
+  });
+  return Photos.find({}, options);
+});
+
+Meteor.publish('published_photos', function (options) {
+  check(options, {
+    sort: Object,
+    limit: Number
+  });
+  return Photos.find({state: 'published'}, options);
 });
 
 
-Meteor.publish('PhotoComments', function () {
-  return PhotoComments.find();
+Meteor.publish('photoComments', function (photoId) {
+  check(photoId, Match.Maybe(String));
+  return PhotoComments.find({photoId: photoId});
 });

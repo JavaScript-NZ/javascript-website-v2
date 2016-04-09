@@ -1,17 +1,24 @@
-Comments = new orion.collection('comments', {
-  singularName: 'comment',
-  pluralName: 'comments',
+PhotoComments = new orion.collection('photo_comments', {
+  singularName: 'photo comment',
+  pluralName: 'photo comments',
   link: {
-    title: 'Comments'
+    title: 'Photo Comments'
   },
+  title: 'Photo Comments',
   tabular: {
     columns: [
-      orion.attributeColumn('createdBy', 'userId', 'Created By'),
       {
-        data: 'postId',
-        title: 'Post Title',
+        data: 'userId',
+        title: 'Author',
         render: function (val, type, doc) {
-          return Posts.findOne(val).title;
+          return Meteor.users.findOne(val).profile.name;
+        }
+      },
+      {
+        data: 'photoId',
+        title: 'Photo Title',
+        render: function (val, type, doc) {
+          return Photos.findOne(val).title;
         }
       },
       {
@@ -27,39 +34,39 @@ Comments = new orion.collection('comments', {
 });
 
 Meteor.methods({
-  commentInsert: function (commentAttributes) {
+  photoCommentInsert: function (commentAttributes) {
     check(this.userId, String);
     check(commentAttributes, {
       body: String,
-      postId: String,
+      photoId: String,
     });
-    
-    var user = Meteor.user();
-    var post = Posts.findOne(commentAttributes.postId);
 
-    if (!post){
-      throw new Meteor.Error('invalid-comment', 'You must comment on a post');
+    var user = Meteor.user();
+    var photo = Photos.findOne(commentAttributes.photoId);
+
+    if (!photo) {
+      throw new Meteor.Error('invalid-comment', 'You must comment on a photo');
     }
 
     var comment = _.extend(commentAttributes, {
       userId: user._id,
       submitted: new Date()
     });
-    
-    comment._id = Comments.insert(comment);
 
-  //  Todo: add comment notifications
+    comment._id = PhotoComments.insert(comment);
+
+    //  Todo: add comment notifications
     return comment._id;
   }
 });
 
-Comments.attachSchema(new SimpleSchema({
-  postId: orion.attribute('hasOne', {
-    label: 'Post',
+PhotoComments.attachSchema(new SimpleSchema({
+  photoId: orion.attribute('hasOne', {
+    label: 'Photo',
   }, {
-    collection: Posts,
+    collection: Photos,
     titleField: 'title',
-    publicationName: 'PB_Comment_Post'
+    publicationName: 'PB_Comment_Photo'
   }),
   userId: orion.attribute('hasOne', {
     type: String,
@@ -69,7 +76,7 @@ Comments.attachSchema(new SimpleSchema({
     collection: Meteor.users,
     // the key whose value you want to show for each Post document on the Update form
     titleField: 'profile.name',
-    publicationName: 'PB_Comment_User',
+    publicationName: 'PB_User_PhotoComment',
   }),
   submitted: {
     type: Date,
@@ -78,9 +85,5 @@ Comments.attachSchema(new SimpleSchema({
   body: {
     type: String,
     optional: false,
-  },
-  // image: orion.attribute('image', {
-  //   optional: true,
-  //   label: 'Comment Image'
-  // })
+  }
 }));

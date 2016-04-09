@@ -35,3 +35,8 @@ Template.registerHelper('loggedUser', function () {
 Template.registerHelper('moment', function (time_req) {
   return moment(time_req).fromNow();
 });
+
+
+Meteor.startup(function () {
+  AutoForm.setDefaultTemplate("bootstrap3");
+});

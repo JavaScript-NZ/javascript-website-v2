@@ -3,10 +3,8 @@ Posts = new orion.collection('posts', {
   pluralName: 'posts',
   tabular: {
     columns: [
-      {
-        data: 'title',
-        title: 'Title',
-      },
+      {data: 'title', title: 'Title'},
+      {data: 'state', title: 'State'},
       orion.attributeColumn('epic', 'body', 'Content'),
       orion.attributeColumn('createdBy', 'createdBy', 'Created By')
     ]
@@ -19,6 +17,7 @@ PostCategory = new orion.collection('post_category', {
   link: {
     title: 'Post Categories'
   },
+  title: 'Post Categories',
   tabular: {
     columns: [
       {

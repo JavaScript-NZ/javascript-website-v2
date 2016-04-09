@@ -4,6 +4,7 @@ Enquiry = new orion.collection('enquiry', {
   link: {
     title: 'Enquiries'
   },
+  title: 'Enquiries',
   tabular: {
     columns: [
       {data: 'name', title: 'Name'},

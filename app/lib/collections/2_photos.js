@@ -1,22 +1,13 @@
 Photos = new orion.collection('photos', {
   singularName: 'photo',
-  pluralName: 'gallery',
+  pluralName: 'photos',
   link: {
-    title: 'Gallery'
+    title: 'Photos'
   },
   tabular: {
     columns: [
-      {
-        data: 'title',
-        title: 'Title',
-      },
-      {
-        data: 'userId',
-        title: 'Author',
-        render: function (val, type, doc) {
-          return Meteor.users.findOne(val).profile.name;
-        }
-      },
+      {data: 'title', title: 'Title'},
+      {data: 'state', title: 'State'},
       //ToDo: Thumbnail
       orion.attributeColumn('epic', 'body', 'Content'),
       orion.attributeColumn('createdAt', 'createdAt', 'Created At'),
@@ -27,6 +18,15 @@ Photos = new orion.collection('photos', {
 
 Photos.attachSchema(new SimpleSchema({
   title: {type: String},
+  state: {
+    type: String,
+    allowedValues: [
+      "draft",
+      "published",
+      "archived"
+    ],
+    label: "State"
+  },
   userId: orion.attribute('hasOne', {
     type: String,
     label: 'Author',
