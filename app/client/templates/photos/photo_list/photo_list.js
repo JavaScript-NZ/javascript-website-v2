@@ -8,6 +8,9 @@ Template.PhotoList.events({
 /* PhotoList: Helpers */
 /*****************************************************************************/
 Template.PhotoList.helpers({
+  'public_id': function () {
+    return Cloudinary_get_public_id(this.image.url);
+  },
   'preview': function (content) {
     var converter = new Showdown.converter();
     var htmlContent = converter.makeHtml(content);

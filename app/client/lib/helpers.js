@@ -1,6 +1,11 @@
 /**
  * Created by rayarvin on 3/31/16.
  */
+Cloudinary_get_public_id = function (imageUrl) {
+  var splitarray = imageUrl.split('image/upload/');
+  return splitarray[1];
+};
+
 Template.registerHelper("usernameFromId", function (userId) {
   var user = Meteor.users.findOne({_id: userId});
   if (typeof user === "undefined") {
