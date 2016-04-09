@@ -1,8 +1,7 @@
 Package.describe({
   name: "orion-cloudinary",
-  summary: "What this does",
-  version: "1.0.0",
-  git: "https://github.com/<username>/orion-cloudinary.git",
+  summary: "Cloudinary image uploads",
+  version: "1.0.0"
 });
 
 Package.onUse(function (api) {
