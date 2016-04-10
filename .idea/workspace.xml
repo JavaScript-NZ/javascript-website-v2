@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="load thumbnails where appropriate">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/client/templates/photo_comments/photo_comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/client/templates/photo_comments/photo_comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/client/templates/photo_comments/photo_comments.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/lib/controllers/photo_comments_controller.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/collections/photo_comments.js" afterPath="$PROJECT_DIR$/app/lib/collections/3_photo_comments.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/collections/photos.js" afterPath="$PROJECT_DIR$/app/lib/collections/2_photos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/helpers.js" afterPath="$PROJECT_DIR$/app/client/lib/helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.overrides.import.less" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.overrides.import.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.variables.import.less" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.variables.import.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/orion/comments/comments.js" afterPath="$PROJECT_DIR$/app/client/templates/orion/comments/comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/photos/photo_list/photo_list.html" afterPath="$PROJECT_DIR$/app/client/templates/photos/photo_list/photo_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/photos/single_photo/single_photo.html" afterPath="$PROJECT_DIR$/app/client/templates/photos/single_photo/single_photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/photos/single_photo/single_photo.js" afterPath="$PROJECT_DIR$/app/client/templates/photos/single_photo/single_photo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html" afterPath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.js" afterPath="$PROJECT_DIR$/app/client/templates/posts/single_post/single_post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/collections/0_posts.js" afterPath="$PROJECT_DIR$/app/lib/collections/0_posts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/collections/1_comment.js" afterPath="$PROJECT_DIR$/app/lib/collections/1_comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/collections/enquiry.js" afterPath="$PROJECT_DIR$/app/lib/collections/enquiry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lib/controllers/photos_controller.js" afterPath="$PROJECT_DIR$/app/lib/controllers/photos_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/publish.js" afterPath="$PROJECT_DIR$/app/server/publish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/packages" afterPath="$PROJECT_DIR$/app/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/versions" afterPath="$PROJECT_DIR$/app/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" afterPath="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" />
     </list>
     <ignored path="javascriptnz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,36 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comments.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/orion/comments/comments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.variables.import.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.variables.import.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.overrides.import.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/site/collections/form.overrides.import.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="0_posts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lib/collections/0_posts.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,12 +36,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enquiry.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="enquiry.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lib/collections/enquiry.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="75" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_layout.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nano-kern.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/packages/nano-kern/client/nano-kern.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="288">
+                <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -124,26 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.import.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/collections/form.import.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="1028" column="0" selection-start-line="1028" selection-start-column="0" selection-end-line="1030" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.variables.import.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/themes/flat/collections/form.variables.import.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1116">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -162,9 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/lib/collections/mdPages.js" />
-        <option value="$PROJECT_DIR$/app/lib/orion/lib/template/template.js" />
-        <option value="$PROJECT_DIR$/app/lib/orion/lib/template/template.html" />
         <option value="$PROJECT_DIR$/app/lib/orion/lib/orion-markdown-attribute.js" />
         <option value="$PROJECT_DIR$/app/lib/orion/lib/template/template.less" />
         <option value="$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.js" />
@@ -213,6 +195,9 @@
         <option value="$PROJECT_DIR$/app/lib/collections/3_photo_comments.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/0_posts.js" />
         <option value="$PROJECT_DIR$/app/lib/collections/enquiry.js" />
+        <option value="$PROJECT_DIR$/app/packages/nano-kern/package.js" />
+        <option value="$PROJECT_DIR$/app/packages/nano-kern/client/nano-kern.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js" />
       </list>
     </option>
   </component>
@@ -222,7 +207,6 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="989" />
@@ -300,7 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="packages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,11 +302,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="packages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
+              <option name="myItemId" value="nano-kern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,6 +321,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nano-kern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -355,252 +347,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="single_post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="single_photo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photo_list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enquiry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-website-v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,7 +366,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publi&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publis&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;home&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/home/home.html&#10;route&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/routes.js&#10;helper&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/helpers.js&#10;site.impo&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;pac&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/.meteor/packages&#10;site.impor&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;postscon&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/controllers/posts_controller.js&#10;pack&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/node_modules/simplemde/node_modules/codemirror/package.json&#10;template.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.js&#10;main&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/stylesheets/main.less&#10;header.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/header/header.js&#10;template.less&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.less" />
+    <property name="SearchEverywhereHistoryKey" value="master&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/master_layout/master_layout.html&#10;publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publi&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publis&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;home&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/home/home.html&#10;route&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/routes.js&#10;helper&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/helpers.js&#10;site.impo&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;pac&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/.meteor/packages&#10;site.impor&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;postscon&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/controllers/posts_controller.js&#10;pack&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/node_modules/simplemde/node_modules/codemirror/package.json&#10;template.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.js&#10;main&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/stylesheets/main.less&#10;header.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/header/header.js&#10;template.less&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.less" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -1069,7 +819,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="23" width="840" height="989" extended-state="0" />
+    <frame x="0" y="23" width="840" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1162,62 +912,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="3" selection-start-line="10" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/posts/posts_list/posts_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="e#94#831#0#Spacebars" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/join_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/controllers/enquiry_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/collections/mdPages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/development/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1460136468000" expanded="true" signature="0:278" placeholder="{...}" />
-            <marker date="1460136468000" expanded="true" signature="14:94" placeholder="{...}" />
-            <marker date="1460136468000" expanded="true" signature="34:90" placeholder="{&quot;cloud_name&quot;: &quot;avwave&quot;...}" />
-            <marker date="1460136468000" expanded="true" signature="109:276" placeholder="{...}" />
-            <marker date="1460136468000" expanded="true" signature="129:272" placeholder="{&quot;cloud_name&quot;: &quot;avwave&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/packages/orion-cloudinary/cloudinary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1581,6 +1275,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/packages/nano-kern/package.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/packages/nano-kern/client/nano-kern.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>

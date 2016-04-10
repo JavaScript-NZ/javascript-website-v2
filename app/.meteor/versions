@@ -93,6 +93,7 @@ mongo@1.1.6
 mongo-id@1.0.3
 msavin:mongol@1.6.2
 multiply:iron-router-progress@1.0.2
+nano-kern@1.0.0
 nicolaslopezj:options@1.0.1
 nicolaslopezj:orion-admin-only-bootstrap@1.1.0
 nicolaslopezj:orion-exporter@1.4.0
