@@ -2,10 +2,9 @@
 /* Sidebar: Event Handlers */
 /*****************************************************************************/
 Template.Sidebar.events({
-  'click .ui.vertical.menu .item': function () {
+  'click .ui.vertical.menu .item': function (evt) {
     $('.ui.sidebar').sidebar('toggle');
-    $('.ui.sidebar').sidebar('dimPage', false);
-  },
+  }
 });
 
 /*****************************************************************************/
