@@ -28,7 +28,10 @@
 </template>
 
 <template name="orionHeartbeatPagesUpdate">
-    {{# with item }}
+    {{#if isLocked}}
+            <h3>Currently being edited by {{_usernameFromId lockedBy}}</h3>
+    {{else}}
+        {{# with item }}
         {{# Layout template="orionBootstrapMediumContentOffset" }}
             {{# Layout template="orionBootstrapTitle" }}
                 {{ i18n 'pages.update.title' }}
@@ -48,4 +51,5 @@
             {{/ Layout }}
         {{/ Layout }}
     {{/ with }}
+    {{/if}}
 </template>

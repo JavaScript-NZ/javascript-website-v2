@@ -5,6 +5,13 @@ Template.orionHeartbeatCollectionsUpdate.onCreated(function () {
   });
 });
 
+Template.orionHeartbeatPagesUpdate.onCreated(function () {
+  var instance = this;
+  instance.autorun(function () {
+    instance.subscribe('all_users');
+  });
+});
+
 Template.orionHeartbeatCollectionsUpdate.helpers({
   isLocked: function () {
     if (getCollection()) {
@@ -25,26 +32,46 @@ Template.orionHeartbeatCollectionsUpdate.helpers({
           return item.lockedBy;
       }
     }
-  },
-  _usernameFromId: function (userId) {
-    var user = Meteor.users.findOne({_id: userId});
-    if (typeof user === "undefined") {
-      return "Anonymous";
-    }
-
-    var displayName = '';
-
-    if (typeof user.profile.displayName !== 'undefined') {
-      displayName = user.profile.displayName;
-    } else if (typeof user.profile.name !== 'undefined') {
-      displayName = user.profile.name;
-    } else if (typeof user.emails !== 'undefined') {
-      displayName = user.emails[0].address;
-    } else {
-      displayName = user._id;
-    }
-    return displayName;
   }
+});
+
+Template.orionHeartbeatPagesUpdate.helpers({
+  isLocked: function () {
+    var item = orion.pages.collection.findOne({});
+    if (item) {
+      if ('lockedBy' in item)
+        return (item.lockedBy !== Meteor.userId());
+    }
+    return false;
+
+  },
+  lockedBy: function () {
+    var item = orion.pages.collection.findOne({});
+    if (item) {
+      if ('lockedBy' in item)
+        return item.lockedBy;
+    }
+  }
+});
+
+Template.registerHelper('_usernameFromId', function (userId) {
+  var user = Meteor.users.findOne({_id: userId});
+  if (typeof user === "undefined") {
+    return "Anonymous";
+  }
+
+  var displayName = '';
+
+  if (typeof user.profile.displayName !== 'undefined') {
+    displayName = user.profile.displayName;
+  } else if (typeof user.profile.name !== 'undefined') {
+    displayName = user.profile.name;
+  } else if (typeof user.emails !== 'undefined') {
+    displayName = user.emails[0].address;
+  } else {
+    displayName = user._id;
+  }
+  return displayName;
 });
 
 

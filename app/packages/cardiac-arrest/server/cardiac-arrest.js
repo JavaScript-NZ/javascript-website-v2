@@ -61,7 +61,13 @@ Meteor.methods({
       return;
     }
     var collection = orion.collections.list[collectionName];
-    var lockingDoc = collection.findOne({_id: docId});
+    var lockingDoc = null;
+
+    if (collectionName === 'pages') {
+      lockingDoc = orion.pages.collection.findOne({_id: docId});
+    } else {
+      lockingDoc = collection.findOne({_id: docId});
+    }
     if (!lockingDoc) {
       return;
     }
