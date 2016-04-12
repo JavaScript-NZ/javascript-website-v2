@@ -3,9 +3,8 @@
 /*****************************************************************************/
 Template.Sidebar.events({
   'click .ui.vertical.menu .item': function () {
-    $('.ui.sidebar')
-      .sidebar('toggle')
-    ;
+    $('.ui.sidebar').sidebar('toggle');
+    $('.ui.sidebar').sidebar('dimPage', false);
   },
 });
 
@@ -23,7 +22,10 @@ Template.Sidebar.onCreated(function () {
 
 Template.Sidebar.onRendered(function () {
   $('.ui.sidebar')
-    .sidebar('attach events', '.toc.item')
+    .sidebar({
+      'attach events': '.toc.item',
+      'dimPage': false
+    })
   ;
 });
 

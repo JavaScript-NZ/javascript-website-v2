@@ -1,5 +1,5 @@
 var staleSessionInterval = 1*60*1000; //1 minute
-var inactivityTimeout = 30*60*1000; //30 minutes
+var inactivityTimeout = 10*60*1000; //30 minutes
 
 Meteor.methods({
   heartbeat: function () {
@@ -12,15 +12,88 @@ Meteor.methods({
   }
 });
 
+
+
 Meteor.setInterval(function () {
-  var now = new Date(), overdueTimestamp = new Date(now - inactivityTimeout);
-  Meteor.users.update(
-    {
+    var now = new Date(), overdueTimestamp = new Date(now - inactivityTimeout);
+
+    var deadUsers = Meteor.users.find({
       heartbeat: {$lt: overdueTimestamp}
-    }, {
-      $set: {'services.resume,loginTokens': []},
-      $unset: {heartbeat: 1}
-    }, {
-      multi: true
-    })
-}, staleSessionInterval);
+    }).map(function (block) {
+      return block._id;
+    });
+
+    if (deadUsers.length > 0) {
+      console.dir(['unlocking stale docs for', deadUsers]);
+      var collections = orion.collections.list;
+      collections['mdPages'] = orion.pages.collection;
+
+      for (var key in collections) {
+        if (collections.hasOwnProperty(key)) {
+          collections[key].update(
+            {
+              lockedBy: {"$in": deadUsers}
+            }, {
+              $unset: {lockedBy: ''}
+            });
+        }
+      }
+
+
+      Meteor.users.update(
+        {
+          heartbeat: {$lt: overdueTimestamp}
+        }, {
+          $set: {'services.resume,loginTokens': []},
+          $unset: {heartbeat: 1}
+        }, {
+          multi: true
+        });
+    }
+  }
+  , staleSessionInterval);
+
+Meteor.methods({
+  lockDocument: function (collectionName, docId) {
+    check(collectionName, String);
+    check(docId, String);
+    if (!this.userId) {
+      return;
+    }
+    var user = Meteor.users.findOne(this.userId);
+    if (user) {
+      try {
+        console.log('locking ' + collectionName + ': ' + docId);
+        if (collectionName === 'pages') {
+          orion.pages.collection.update({_id: docId}, {$set: {lockedBy: user._id}});
+        } else {
+          var collection = orion.collections.list[collectionName];
+          collection.update({_id: docId}, {$set: {lockedBy: user._id}});
+        }
+      }catch (e) {
+        console.log('Error updating document', e);
+      }
+    }
+  },
+  unlockDocument: function (collectionName, docId) {
+    check(collectionName, String);
+    check(docId, String);
+    if (!this.userId) {
+      return;
+    }
+    var user = Meteor.users.findOne(this.userId);
+    if (user) {
+      try {
+        console.log('unlocking ' + collectionName + ': ' + docId);
+        if (collectionName === 'pages') {
+          orion.pages.collection.update({_id: docId}, {$unset: {lockedBy: ''}});
+        } else {
+          var collection = orion.collections.list[collectionName];
+          collection.update({_id: docId}, {$unset: {lockedBy: ''}});
+        }
+      } catch (e) {
+        console.log('Error updating document', e);
+      }
+    }
+  }
+});

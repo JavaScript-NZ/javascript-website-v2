@@ -50,4 +50,11 @@ Photos.attachSchema(new SimpleSchema({
   createdAt: orion.attribute('createdAt', {
     label: 'Created At'
   }),
+  lockedBy: {
+    type: String,
+    autoform: {
+      type: 'hidden'
+    },
+    optional: true
+  }
 }));

@@ -64,7 +64,14 @@ EnquirySchema = new SimpleSchema({
   },
   updatedAt: orion.attribute('updatedAt', {
     label: 'Updated At'
-  })
+  }),
+  lockedBy: {
+    type: String,
+    autoform: {
+      type: 'hidden'
+    },
+    optional: true
+  }
 });
 
 Enquiry.attachSchema(EnquirySchema);

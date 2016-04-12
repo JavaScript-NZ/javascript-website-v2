@@ -1,4 +1,4 @@
-var heartbeatInterval = 3*60*1000; // 3 minute default
+var heartbeatInterval = 3*30*1000; // 3 minute default
 
 var activityEvents = 'mousemove click keydown';
 
@@ -13,7 +13,6 @@ Meteor.startup(function () {
   }, heartbeatInterval);
 
   $(document).on(activityEvents, function () {
-    console.log('alive');
    heartbeatAlive = true;
   });
 });

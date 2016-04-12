@@ -79,6 +79,13 @@ Comments.attachSchema(new SimpleSchema({
     type: String,
     optional: false,
   },
+  lockedBy: {
+    type: String,
+    autoform:{
+      type: 'hidden'
+    },
+    optional: true
+  }
   // image: orion.attribute('image', {
   //   optional: true,
   //   label: 'Comment Image'

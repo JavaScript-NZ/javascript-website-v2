@@ -1,0 +1,1 @@
+Options.set('collectionsDefaultUpdateTemplate', 'orionHeartbeatCollectionsUpdate');

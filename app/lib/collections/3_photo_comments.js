@@ -85,5 +85,12 @@ PhotoComments.attachSchema(new SimpleSchema({
   body: {
     type: String,
     optional: false,
+  },
+  lockedBy: {
+    type: String,
+    autoform: {
+      type: 'hidden'
+    },
+    optional: true
   }
 }));

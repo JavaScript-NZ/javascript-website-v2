@@ -32,6 +32,13 @@ PostCategory = new orion.collection('post_category', {
 PostCategorySchema = new SimpleSchema({
   name: {
     type: String
+  },
+  lockedBy: {
+    type: String,
+    autoform: {
+      type: 'hidden'
+    },
+    optional: true
   }
 });
 
@@ -61,7 +68,14 @@ PostsSchema = new SimpleSchema({
     collection: PostCategory,
     titleField: 'name',
     publicationName: 'PB_Post_PostCategory'
-  })
+  }),
+  lockedBy: {
+    type: String,
+    autoform: {
+      type: 'hidden'
+    },
+    optional: true
+  }
 });
 
 Posts.attachSchema(PostsSchema);

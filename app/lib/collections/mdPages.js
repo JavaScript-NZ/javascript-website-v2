@@ -5,5 +5,12 @@ orion.pages.addTemplate({
 }, {
   content: orion.attribute('epic', {
     label: 'Content'
-  })
+  }),
+  lockedBy: {
+    type: String,
+    autoform: {
+      type: 'hidden'
+    },
+    optional: true
+  }
 });
