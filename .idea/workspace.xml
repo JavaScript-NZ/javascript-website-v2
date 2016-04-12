@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="document locking (no ui)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/sidebar.variables.import.less" afterPath="$PROJECT_DIR$/app/client/lib/semantic-ui/site/modules/sidebar.variables.import.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" afterPath="$PROJECT_DIR$/app/client/templates/layouts/header/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.js" afterPath="$PROJECT_DIR$/app/client/templates/layouts/sidebar/sidebar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.html" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" />
@@ -1256,7 +1253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460497617451</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="sidebar no-dim (admin ui problems)">
+      <created>1460503754978</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1460503754978</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1345,7 +1349,8 @@
     <MESSAGE value="photocomments" />
     <MESSAGE value="load thumbnails where appropriate" />
     <MESSAGE value="document locking (no ui)" />
-    <option name="LAST_COMMIT_MESSAGE" value="document locking (no ui)" />
+    <MESSAGE value="sidebar no-dim (admin ui problems)" />
+    <option name="LAST_COMMIT_MESSAGE" value="sidebar no-dim (admin ui problems)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

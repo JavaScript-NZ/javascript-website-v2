@@ -1,23 +1,51 @@
 <template name="orionHeartbeatCollectionsUpdate">
-    {{# Layout template="orionBootstrapMediumContentOffset" }}
-        {{# Layout template="orionBootstrapTitle" }}
-            {{i18n 'collections.update.title' collection.singularName }}
+    {{#if isLocked}}
+        <h3>Currently being edited by {{_usernameFromId lockedBy}}</h3>
+    {{else}}
+        {{# Layout template="orionBootstrapMediumContentOffset" }}
+            {{# Layout template="orionBootstrapTitle" }}
+                {{i18n 'collections.update.title' collection.singularName }}
+            {{/ Layout }}
+            {{# Layout template="orionBootstrapContentContainer" }}
+                {{#if Template.subscriptionsReady}}
+                    {{# if item.canShowUpdate }}
+                        {{> quickForm collection=collection doc=item id="orionBootstrapCollectionsUpdateForm" type="update" buttonContent=false omitFields=collection.getHiddenFields }}
+                        <br>
+                        <div class="buttons text-right">
+                            <a class="btn btn-default" href="{{ collection.indexPath }}">{{ i18n 'global.cancel' }}</a>
+                            {{# if item.canShowRemove }}
+                                <a class="btn btn-danger"
+                                   href="{{ collection.deletePath item._id }}">{{i18n 'global.delete' }}</a>
+                            {{/ if }}
+                            <a class="btn btn-primary save-btn">{{ i18n 'global.save' }}</a>
+                        </div>
+                    {{/ if }}
+                {{/ if }}
+            {{/ Layout }}
         {{/ Layout }}
-        {{# Layout template="orionBootstrapContentContainer" }}
-            {{#if Template.subscriptionsReady}}
-                {{# if item.canShowUpdate }}
-                    {{> quickForm collection=collection doc=item id="orionBootstrapCollectionsUpdateForm" type="update" buttonContent=false omitFields=collection.getHiddenFields }}
+    {{/if}}
+
+</template>
+
+<template name="orionHeartbeatPagesUpdate">
+    {{# with item }}
+        {{# Layout template="orionBootstrapMediumContentOffset" }}
+            {{# Layout template="orionBootstrapTitle" }}
+                {{ i18n 'pages.update.title' }}
+            {{/ Layout }}
+            {{# Layout template="orionBootstrapContentContainer" }}
+                {{# if getSchema }}
+                    {{> quickForm collection="orion.pages.collection" schema=getSchema doc=this id="orionPagesUpdateForm" type="update" buttonContent=false }}
                     <br>
                     <div class="buttons text-right">
-                        <a class="btn btn-default" href="{{ collection.indexPath }}">{{ i18n 'global.cancel' }}</a>
-                        {{# if item.canShowRemove }}
-                            <a class="btn btn-danger"
-                               href="{{ collection.deletePath item._id }}">{{i18n 'global.delete' }}</a>
-                        {{/ if }}
+                        <a class="btn btn-default cancel-btn"
+                           href="{{ RouterLayerPathFor 'pages.index' }}">{{ i18n 'global.cancel' }}</a>
+                        <a class="btn btn-danger delete-btn"
+                           href="{{ RouterLayerPathFor 'pages.delete' _id=item._id }}">{{ i18n 'global.delete' }}</a>
                         <a class="btn btn-primary save-btn">{{ i18n 'global.save' }}</a>
                     </div>
                 {{/ if }}
-            {{/ if }}
+            {{/ Layout }}
         {{/ Layout }}
-    {{/ Layout }}
+    {{/ with }}
 </template>

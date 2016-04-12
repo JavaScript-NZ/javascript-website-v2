@@ -60,14 +60,22 @@ Meteor.methods({
     if (!this.userId) {
       return;
     }
+    var collection = orion.collections.list[collectionName];
+    var lockingDoc = collection.findOne({_id: docId});
+    if (!lockingDoc) {
+      return;
+    }
     var user = Meteor.users.findOne(this.userId);
+    if (lockingDoc.lockedBy !== user._id && 'lockedBy' in lockingDoc) {
+      console.log(docId + ' already locked by ' + lockingDoc.lockedBy);
+      return;
+    }
     if (user) {
       try {
         console.log('locking ' + collectionName + ': ' + docId);
         if (collectionName === 'pages') {
           orion.pages.collection.update({_id: docId}, {$set: {lockedBy: user._id}});
         } else {
-          var collection = orion.collections.list[collectionName];
           collection.update({_id: docId}, {$set: {lockedBy: user._id}});
         }
       }catch (e) {
@@ -96,4 +104,20 @@ Meteor.methods({
       }
     }
   }
+});
+
+Meteor.publish('all_users', function () {
+  return Meteor.users.find({}, {
+    fields: {
+      "services.twitter.profile_image_url_https": 1,
+      "services.facebook.id": 1,
+      "services.google.picture": 1,
+      "services.github.username": 1,
+      "services.instagram.profile_picture": 1,
+      "services.linkedin.pictureUrl": 1,
+
+      "profile": 1,
+      "user.username": 1
+    }
+  });
 });
