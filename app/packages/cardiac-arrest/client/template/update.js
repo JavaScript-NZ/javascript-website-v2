@@ -3,16 +3,16 @@ Template.orionHeartbeatCollectionsUpdate.onCreated(function () {
   var docId = RouterLayer.getParam('_id');
   var collection = getCollection();
   var collectionName = collection.name;
-  instance.autorun(function () {
+  instance.autorun(function (c) {
+    instance.subscribe('all_users');
     var subscription = instance.subscribe('adminGetOne.' + collectionName, docId);
     if (subscription.ready()) {
       var doc = collection.findOne({});
-      console.dir('unlocking' + doc._id);
       if (!isDocumentLocked(collection)) {
         Meteor.call('lockDocument', collectionName, docId);
+        c.stop();
       }
     }
-    instance.subscribe('all_users');
   });
 });
 
@@ -20,17 +20,16 @@ Template.orionHeartbeatPagesUpdate.onCreated(function () {
   var instance = this;
   var docId = RouterLayer.getParam('_id');
   var collection = orion.pages.collection;
-  var collectionName = 'pages';
-  instance.autorun(function () {
+  instance.autorun(function (c) {
+    instance.subscribe('all_users');
     var subscription = instance.subscribe('pageById', docId);
     if (subscription.ready()) {
       var doc = collection.findOne({});
-      console.dir('unlocking' + doc._id);
       if (!isDocumentLocked(collection)) {
-        Meteor.call('lockDocument', collectionName, docId);
+        Meteor.call('lockDocument', 'pages', docId);
+        c.stop();
       }
     }
-    instance.subscribe('all_users');
   });
 });
 

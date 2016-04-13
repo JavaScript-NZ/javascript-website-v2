@@ -20,7 +20,8 @@ Package.onUse(function (api) {
     'less@2.5.0_1',
     'aldeed:autoform@5.7.1',
     'aldeed:tabular@1.1.0',
-    'useraccounts:bootstrap@1.11.1'
+    'useraccounts:bootstrap@1.11.1',
+    'orionjs:pages'
   ]);
 
   api.imply([
@@ -29,12 +30,11 @@ Package.onUse(function (api) {
     'useraccounts:bootstrap'
   ]);
 
+  api.addFiles('init.js');
   api.addFiles('lib/cardiac-arrest.js', ['client', 'server']);
-
   api.addFiles('client/cardiac-arrest.js', 'client');
   api.addFiles('client/template/update.html', 'client');
   api.addFiles('client/template/update.js', 'client');
   api.addFiles('server/cardiac-arrest.js', 'server');
-  api.addFiles(['init.js']);
 
 });
