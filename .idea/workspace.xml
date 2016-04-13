@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/packages" afterPath="$PROJECT_DIR$/app/.meteor/packages" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/photos/single_photo/single_photo.js" afterPath="$PROJECT_DIR$/app/client/templates/photos/single_photo/single_photo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/package.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/production/settings.json" afterPath="$PROJECT_DIR$/config/production/settings.json" />
     </list>
     <ignored path="javascriptnz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +35,8 @@
       <file leaf-file-name="update.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -1027,7 +1022,21 @@
       <option name="project" value="LOCAL" />
       <updated>1460544246445</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="moved template replacement to startup">
+      <created>1460555135193</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1460555135193</updated>
+    </task>
+    <task id="LOCAL-00031" summary="production cloudinary settings">
+      <created>1460555158594</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1460555158594</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1092,8 +1101,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="idea" />
-    <MESSAGE value="pages templates" />
     <MESSAGE value="load content only when not null" />
     <MESSAGE value="footer/rearrange template" />
     <MESSAGE value="move sidebar to separate template" />
@@ -1117,7 +1124,9 @@
     <MESSAGE value="lock ui for locked components" />
     <MESSAGE value="lock ui for locked pages" />
     <MESSAGE value="engage lock for locked out user when another user disengages document" />
-    <option name="LAST_COMMIT_MESSAGE" value="engage lock for locked out user when another user disengages document" />
+    <MESSAGE value="moved template replacement to startup" />
+    <MESSAGE value="production cloudinary settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="production cloudinary settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1522,8 +1531,7 @@
         <state relative-caret-position="360">
           <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
-            <element signature="e#54#1444#0#Spacebars" expanded="true" />
-            <element signature="e#1725#1851#0#Spacebars" expanded="true" />
+            <element signature="e#1725#1851#0#Spacebars" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1538,8 +1546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
           <folding />
         </state>
       </provider>
