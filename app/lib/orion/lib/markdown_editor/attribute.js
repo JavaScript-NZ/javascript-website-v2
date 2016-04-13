@@ -5,7 +5,6 @@ orion.attributes.registerAttribute('markdown', {
     return {type: String};
   },
   valueOut: function () {
-    debugger;
     return simplemde.value();
   }
 });

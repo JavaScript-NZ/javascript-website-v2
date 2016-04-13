@@ -5,7 +5,7 @@ Posts = new orion.collection('posts', {
     columns: [
       {data: 'title', title: 'Title'},
       {data: 'state', title: 'State'},
-      orion.attributeColumn('epic', 'body', 'Content'),
+      orion.attributeColumn('markdown', 'body', 'Content'),
       orion.attributeColumn('createdBy', 'createdBy', 'Created By')
     ]
   }

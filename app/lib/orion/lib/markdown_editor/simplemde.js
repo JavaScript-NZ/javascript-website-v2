@@ -29,4 +29,10 @@ if (Meteor.isClient) {
       });
     simplemde.value(this.data.value);
   });
+  Template.orionAttributesMarkdownColumn.helpers({
+    preview: function () {
+      var value = this.value;
+      return s(value).prune(20).value();
+    }
+  });
 }

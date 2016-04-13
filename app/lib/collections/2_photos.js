@@ -9,7 +9,7 @@ Photos = new orion.collection('photos', {
       {data: 'title', title: 'Title'},
       {data: 'state', title: 'State'},
       //ToDo: Thumbnail
-      orion.attributeColumn('epic', 'body', 'Content'),
+      orion.attributeColumn('markdown', 'body', 'Content'),
       orion.attributeColumn('createdAt', 'createdAt', 'Created At'),
       orion.attributeColumn('createdBy', 'createdBy', 'Created By')
     ]
@@ -41,7 +41,7 @@ Photos.attachSchema(new SimpleSchema({
     optional: true,
     label: 'Image'
   }),
-  body: orion.attribute('epic', {
+  body: orion.attribute('markdown', {
     label: 'Body'
   }),
   createdBy: orion.attribute('createdBy', {
