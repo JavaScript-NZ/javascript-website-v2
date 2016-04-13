@@ -3,7 +3,7 @@ orion.pages.addTemplate({
   name: 'Markdown Pages',
   description: 'Site Pages in Markdown Format'
 }, {
-  content: orion.attribute('epic', {
+  content: orion.attribute('markdown', {
     label: 'Content'
   }),
   lockedBy: {

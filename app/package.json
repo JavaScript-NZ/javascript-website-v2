@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "jquery": "^2.2.3",
-    "meteor-node-stubs": "^0.2.1"
+    "meteor-node-stubs": "^0.2.1",
+    "simplemde": "git+https://github.com/avwave/simplemde-markdown-editor.git"
   }
 }

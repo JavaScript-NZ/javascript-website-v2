@@ -56,7 +56,7 @@ PostsSchema = new SimpleSchema({
     defaultValue: 'draft',
     label: "State"
   },
-  body: orion.attribute('epic', {
+  body: orion.attribute('markdown', {
     label: 'Body'
   }),
   createdBy: orion.attribute('createdBy', {
