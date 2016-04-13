@@ -3,7 +3,6 @@ var inactivityTimeout = 10*60*1000; //30 minutes
 
 Meteor.methods({
   heartbeat: function () {
-    console.log('server heartbeat');
     if (!this.userId) {return;}
     var user = Meteor.users.findOne(this.userId);
     if (user) {
@@ -73,7 +72,7 @@ Meteor.methods({
     }
     var user = Meteor.users.findOne(this.userId);
     if (lockingDoc.lockedBy !== user._id && 'lockedBy' in lockingDoc) {
-      console.log(docId + ' already locked by ' + lockingDoc.lockedBy);
+      // console.log(docId + ' already locked by ' + lockingDoc.lockedBy);
       return;
     }
     if (user) {

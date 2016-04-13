@@ -1,28 +1,42 @@
 Template.orionHeartbeatCollectionsUpdate.onCreated(function () {
   var instance = this;
+  var docId = RouterLayer.getParam('_id');
+  var collection = getCollection();
+  var collectionName = collection.name;
   instance.autorun(function () {
+    var subscription = instance.subscribe('adminGetOne.' + collectionName, docId);
+    if (subscription.ready()) {
+      var doc = collection.findOne({});
+      console.dir('unlocking' + doc._id);
+      if (!isDocumentLocked(collection)) {
+        Meteor.call('lockDocument', collectionName, docId);
+      }
+    }
     instance.subscribe('all_users');
   });
 });
 
 Template.orionHeartbeatPagesUpdate.onCreated(function () {
   var instance = this;
+  var docId = RouterLayer.getParam('_id');
+  var collection = orion.pages.collection;
+  var collectionName = 'pages';
   instance.autorun(function () {
+    var subscription = instance.subscribe('pageById', docId);
+    if (subscription.ready()) {
+      var doc = collection.findOne({});
+      console.dir('unlocking' + doc._id);
+      if (!isDocumentLocked(collection)) {
+        Meteor.call('lockDocument', collectionName, docId);
+      }
+    }
     instance.subscribe('all_users');
   });
 });
 
 Template.orionHeartbeatCollectionsUpdate.helpers({
   isLocked: function () {
-    if (getCollection()) {
-      var item = getCollection().findOne({});
-      if (item) {
-        if ('lockedBy' in item)
-          return (item.lockedBy !== Meteor.userId());
-      }
-    }
-    return false;
-
+    return isDocumentLocked(getCollection());
   },
   lockedBy: function () {
     if (getCollection()) {
@@ -37,13 +51,7 @@ Template.orionHeartbeatCollectionsUpdate.helpers({
 
 Template.orionHeartbeatPagesUpdate.helpers({
   isLocked: function () {
-    var item = orion.pages.collection.findOne({});
-    if (item) {
-      if ('lockedBy' in item)
-        return (item.lockedBy !== Meteor.userId());
-    }
-    return false;
-
+    return isDocumentLocked(orion.pages.collection);
   },
   lockedBy: function () {
     var item = orion.pages.collection.findOne({});
@@ -74,6 +82,16 @@ Template.registerHelper('_usernameFromId', function (userId) {
   return displayName;
 });
 
+var isDocumentLocked = function (collection) {
+  if (collection) {
+    var item = collection.findOne({});
+    if (item) {
+      if ('lockedBy' in item)
+        return (item.lockedBy !== Meteor.userId());
+    }
+  }
+  return false;
+};
 
 var getCollection = function () {
   var collection = null;
@@ -92,7 +110,7 @@ orion.collections.onCreated( function () {
     this.lockedDoc = RouterLayer.getParam('_id');
     this.lockedCollection = getCollection().name;
     Meteor.call('heartbeat');
-    Meteor.call('lockDocument', getCollection().name, RouterLayer.getParam('_id'));
+    // Meteor.call('lockDocument', getCollection().name, RouterLayer.getParam('_id'));
   });
 
   ReactiveTemplates.onDestroyed('collections.' + self.name + '.update', function () {
@@ -103,7 +121,7 @@ orion.collections.onCreated( function () {
   ReactiveTemplates.onCreated('pages.update', function () {
     this.lockedDoc = RouterLayer.getParam('_id');
     Meteor.call('heartbeat');
-    Meteor.call('lockDocument', 'pages', RouterLayer.getParam('_id'));
+    // Meteor.call('lockDocument', 'pages', RouterLayer.getParam('_id'));
   });
 
   ReactiveTemplates.onDestroyed('pages.update', function () {
