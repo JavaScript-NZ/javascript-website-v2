@@ -31,8 +31,8 @@ useraccounts:iron-routing
 #accounts-ui
 standard-minifier-css
 standard-minifier-js
-markdown
-patte:ghostdown
+#markdown
+chuangbo:marked
 underscore
 underscorestring:underscore.string
 iandouglas:accounts-ui-semantic-ui
@@ -42,7 +42,6 @@ check
 audit-argument-checks
 multiply:iron-router-progress
 orionjs:relationships
-lyuyea:md-editor
 orionjs:filesystem
 orionjs:image-attribute
 orionjs:file-attribute
@@ -54,3 +53,5 @@ momentjs:moment
 orion-cloudinary
 nano-kern
 cardiac-arrest
+
+simple:highlight.js

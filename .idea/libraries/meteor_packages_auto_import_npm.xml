@@ -299,6 +299,10 @@
         <item url="file://$USER_HOME$/.meteor/packages/babel-runtime/0.1.7/npm/node_modules/regenerator/lib/leap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.2/npm/node_modules/install/docs/docco.css" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.2/npm/node_modules/install/docs/public/stylesheets/normalize.css" />
+        <item url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/lib/html5-entities.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/lib/html4-entities.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/lib/xml-entities.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteorhacks_inject-initial/1.0.4/npm/node_modules/connect/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.42/npm/node_modules/mongodb/index.js" />
       </sourceFilesUrls>
@@ -601,6 +605,10 @@
       <root url="file://$USER_HOME$/.meteor/packages/babel-runtime/0.1.7/npm/node_modules/regenerator/lib/leap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.2/npm/node_modules/install/docs/docco.css" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.6.2/npm/node_modules/install/docs/public/stylesheets/normalize.css" />
+      <root url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/lib/html5-entities.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/lib/html4-entities.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/lib/xml-entities.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/simple_highlight.js/1.2.0/npm/node_modules/html-entities/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteorhacks_inject-initial/1.0.4/npm/node_modules/connect/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.42/npm/node_modules/mongodb/index.js" />
     </CLASSES>
