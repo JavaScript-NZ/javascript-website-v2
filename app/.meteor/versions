@@ -46,6 +46,7 @@ fabienb4:autoform-semantic-ui@0.9.3
 fastclick@1.0.10
 flemay:less-autoprefixer@1.2.0
 geojson-utils@1.0.7
+handlebars@1.0.6
 hot-code-push@1.0.3
 html-tools@1.0.8
 htmljs@1.0.8
@@ -126,6 +127,7 @@ random@1.0.8
 rate-limit@1.0.3
 reactive-dict@1.1.6
 reactive-var@1.0.8
+recaptcha@0.0.1
 reload@1.1.7
 retry@1.0.6
 routepolicy@1.0.9

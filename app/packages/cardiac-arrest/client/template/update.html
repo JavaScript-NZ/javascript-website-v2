@@ -2,6 +2,7 @@
     {{#if isLocked}}
         <h3>Currently being edited by {{_usernameFromId lockedBy}}</h3>
     {{else}}
+        <hr>
         {{# Layout template="orionBootstrapMediumContentOffset" }}
             {{# Layout template="orionBootstrapTitle" }}
                 {{i18n 'collections.update.title' collection.singularName }}

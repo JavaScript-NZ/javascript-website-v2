@@ -1,4 +1,2 @@
-Meteor.startup(function () {
-  Options.set('collectionsDefaultUpdateTemplate', 'orionHeartbeatCollectionsUpdate');
-  ReactiveTemplates.set('pages.update', 'orionHeartbeatPagesUpdate');
-});
+Options.set('collectionsDefaultUpdateTemplate', 'orionHeartbeatCollectionsUpdate');
+ReactiveTemplates.set('pages.update', 'orionHeartbeatPagesUpdate');

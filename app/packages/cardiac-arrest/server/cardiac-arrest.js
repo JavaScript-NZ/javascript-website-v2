@@ -72,7 +72,7 @@ Meteor.methods({
     }
     var user = Meteor.users.findOne(this.userId);
     if (lockingDoc.lockedBy !== user._id && 'lockedBy' in lockingDoc) {
-      // console.log(docId + ' already locked by ' + lockingDoc.lockedBy);
+      console.log(docId + ' already locked by ' + lockingDoc.lockedBy);
       return;
     }
     if (user) {
@@ -95,6 +95,24 @@ Meteor.methods({
       return;
     }
     var user = Meteor.users.findOne(this.userId);
+
+    var collection = orion.collections.list[collectionName];
+    var lockingDoc = null;
+
+    if (collectionName === 'pages') {
+      lockingDoc = orion.pages.collection.findOne({_id: docId});
+    } else {
+      lockingDoc = collection.findOne({_id: docId});
+    }
+    if (!lockingDoc) {
+      return;
+    }
+
+    if (lockingDoc.lockedBy !== user._id && 'lockedBy' in lockingDoc) {
+      console.log(docId + ' owned by ' + lockingDoc.lockedBy + '.  skipping unlock');
+      return;
+    }
+
     if (user) {
       try {
         console.log('unlocking ' + collectionName + ': ' + docId);
