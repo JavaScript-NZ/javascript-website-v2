@@ -23,30 +23,31 @@ Template.Enquiry.onDestroyed(function () {
 });
 
 var enquiryHook = {
-  onSubmit: function (insertDoc, updateDoc, currentDoc) {
-    debugger;
-    var self = this;
-    this.event.preventDefault();
-    insertDoc['g-recaptcha-response'] = $('#g-recaptcha-response').val();
-    Meteor.call('server/submitenquiry', insertDoc, function (error, result) {
-      if (error) {
-        self.done(error);
-      } else {
-        self.done(null, result);
-      }
-    });
-    return true;
+  before: {
+    method: function (doc) {
+      doc['g-recaptcha-response'] = $('#g-recaptcha-response').val();
+      return doc;
+    }
   },
   onSuccess: function (formType, result) {
-    debugger;
+    RouterLayer.go('thanks', {originform: true});
   },
   onError: function (formType, error) {
-    AutoForm.resetForm('enquiry_form');
-  },
-
-
+    debugger;
+  }
 };
 
 AutoForm.hooks({
   enquiry_form: enquiryHook
 });
+
+EnquiryCaptchaSchema = new SimpleSchema(
+  [
+    EnquirySchema,
+    {
+      'g-recaptcha-response': {
+        type: 'String',
+        optional: true
+      }
+    }
+  ]);

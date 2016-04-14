@@ -38,7 +38,9 @@ HomeController = RouteController.extend({
     this.render('Home', {});
   },
   // You can provide any of the hook options
-  
+  thanks: function () {
+    this.render('Thankyou', {});
+  },
   onRun: function () {
     this.next();
   },

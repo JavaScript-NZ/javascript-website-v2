@@ -45,6 +45,13 @@ Router.route('contact', {
   where: 'client'
 });
 
+Router.route('thanks', {
+  name: 'thanks',
+  controller: 'HomeController',
+  action: 'thanks',
+  where: 'client'
+});
+
 Router.route('join', {
   name: 'join',
   controller: 'JoinController',
