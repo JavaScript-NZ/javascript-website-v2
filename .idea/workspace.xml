@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="official logo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/bootstrap.js" />
+    <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" afterPath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js" afterPath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/bootstrap.js" afterPath="$PROJECT_DIR$/app/server/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/methods.js" afterPath="$PROJECT_DIR$/app/server/methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/development/settings.json" afterPath="$PROJECT_DIR$/config/development/settings.json" />
     </list>
     <ignored path="javascriptnz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +34,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="enquiry.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+              <folding>
+                <element signature="e#380#1044#0#Spacebars" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="update.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,51 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master_layout.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
+      <file leaf-file-name="enquiry.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="98">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardiac-arrest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/packages/cardiac-arrest/client/cardiac-arrest.js">
+      <file leaf-file-name="methods.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/server/methods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/packages/cardiac-arrest/init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="57" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attribute.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/orion/lib/markdown_editor/attribute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/orion/options.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="343">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -178,17 +157,17 @@
         <option value="$PROJECT_DIR$/app/server/bootstrap.js" />
         <option value="$PROJECT_DIR$/config/development/settings.json" />
         <option value="$PROJECT_DIR$/app/client/templates/join/join.html" />
-        <option value="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" />
         <option value="$PROJECT_DIR$/app/packages/recaptcha/client/recaptcha.js" />
         <option value="$PROJECT_DIR$/app/packages/recaptcha/package.js" />
         <option value="$PROJECT_DIR$/app/client/lib/bootstrap.js" />
-        <option value="$PROJECT_DIR$/app/server/methods.js" />
-        <option value="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js" />
         <option value="$PROJECT_DIR$/app/packages/cardiac-arrest/server/cardiac-arrest.js" />
         <option value="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.html" />
         <option value="$PROJECT_DIR$/app/packages/cardiac-arrest/package.js" />
         <option value="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" />
         <option value="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" />
+        <option value="$PROJECT_DIR$/app/server/methods.js" />
+        <option value="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js" />
       </list>
     </option>
   </component>
@@ -669,7 +648,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="mas&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/master_layout/master_layout.js&#10;sidebar.impo&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/modules/sidebar.import.less&#10;si&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/sidebar/sidebar.js&#10;master&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/master_layout/master_layout.html&#10;publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publi&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publis&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;home&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/home/home.html&#10;route&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/routes.js&#10;helper&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/helpers.js&#10;site.impo&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;pac&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/.meteor/packages&#10;site.impor&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;postscon&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/controllers/posts_controller.js&#10;pack&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/node_modules/simplemde/node_modules/codemirror/package.json&#10;template.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.js&#10;main&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/stylesheets/main.less&#10;header.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/header/header.js&#10;template.less&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.less" />
+    <property name="SearchEverywhereHistoryKey" value="enquiry&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/enquiry/enquiry.js&#10;mas&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/master_layout/master_layout.js&#10;sidebar.impo&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/modules/sidebar.import.less&#10;si&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/sidebar/sidebar.js&#10;master&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/master_layout/master_layout.html&#10;publish&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publi&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;publis&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/server/publish.js&#10;home&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/home/home.html&#10;route&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/routes.js&#10;helper&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/helpers.js&#10;site.impo&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;pac&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/.meteor/packages&#10;site.impor&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/lib/semantic-ui/definitions/globals/site.import.less&#10;postscon&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/controllers/posts_controller.js&#10;pack&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/node_modules/simplemde/node_modules/codemirror/package.json&#10;template.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.js&#10;main&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/stylesheets/main.less&#10;header.js&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/client/templates/layouts/header/header.js&#10;template.less&#9;FILE&#9;file:///Users/rayarvin/MeteorProjects/javascript-website-v2/app/lib/orion/lib/template/template.less" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -1238,7 +1217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460639026356</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="recaptcha">
+      <created>1460639039431</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1460639039431</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1303,7 +1289,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cloudinary uploads&#10;" />
     <MESSAGE value="comments admin" />
     <MESSAGE value="post lists" />
     <MESSAGE value="alternate header hero" />
@@ -1328,7 +1313,8 @@
     <MESSAGE value="official logo" />
     <MESSAGE value="hrf kerning" />
     <MESSAGE value="unlock only OWN documents (duh)" />
-    <option name="LAST_COMMIT_MESSAGE" value="unlock only OWN documents (duh)" />
+    <MESSAGE value="recaptcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="recaptcha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1344,13 +1330,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/client/lib/semantic-ui/definitions/globals/site.import.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/md_pages/md_pages.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1533,24 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="e#380#1094#0#Spacebars" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/packages/cardiac-arrest/server/cardiac-arrest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1579,14 +1540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1726,6 +1679,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.meteor/packages/check/1.1.3/web.browser/match.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <element signature="e#380#1044#0#Spacebars" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding />
         </state>
       </provider>

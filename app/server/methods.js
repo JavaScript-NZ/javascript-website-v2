@@ -18,9 +18,10 @@ Meteor.methods({
 
     if (verifyCaptchaResponse.data.success === false)
       throw new Meteor.Error("Oh no! A robot!");
-
+    
+    delete doc["g-recaptcha-response"];
     Enquiry.insert(doc,  function () {
-      
+
     });
   }
 });
