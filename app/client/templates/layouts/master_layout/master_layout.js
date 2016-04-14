@@ -11,7 +11,7 @@ Template.MasterLayout.onRendered(function () {
   //JAVASCRIPT NZ Inc
   NanoKern($('.hero-prefix')[0],
     [
-      0,-2,-8,-8
+      0,-1,-4,-4
     ]
   );
 });
