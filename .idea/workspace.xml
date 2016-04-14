@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6927746a-c367-4546-8e0c-e195cb9a8464" name="Default" comment="official logo">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/client/lib/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/packages/recaptcha/client/recaptcha.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/packages" afterPath="$PROJECT_DIR$/app/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.meteor/versions" afterPath="$PROJECT_DIR$/app/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" afterPath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js" afterPath="$PROJECT_DIR$/app/client/templates/enquiry/enquiry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.html" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/client/template/update.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/package.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/packages/cardiac-arrest/server/cardiac-arrest.js" afterPath="$PROJECT_DIR$/app/packages/cardiac-arrest/server/cardiac-arrest.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/bootstrap.js" afterPath="$PROJECT_DIR$/app/server/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/methods.js" afterPath="$PROJECT_DIR$/app/server/methods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/development/settings.json" afterPath="$PROJECT_DIR$/config/development/settings.json" />
@@ -60,8 +50,8 @@
       <file leaf-file-name="master_layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="306">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1241,7 +1231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460638973465</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="unlock only OWN documents (duh)">
+      <created>1460639026356</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1460639026356</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1306,7 +1303,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use simplemdedit (wonky markdown with previous editor)" />
     <MESSAGE value="cloudinary uploads&#10;" />
     <MESSAGE value="comments admin" />
     <MESSAGE value="post lists" />
@@ -1331,7 +1327,8 @@
     <MESSAGE value="moar stylez" />
     <MESSAGE value="official logo" />
     <MESSAGE value="hrf kerning" />
-    <option name="LAST_COMMIT_MESSAGE" value="hrf kerning" />
+    <MESSAGE value="unlock only OWN documents (duh)" />
+    <option name="LAST_COMMIT_MESSAGE" value="unlock only OWN documents (duh)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1727,8 +1724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/client/templates/layouts/master_layout/master_layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

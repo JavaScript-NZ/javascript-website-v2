@@ -11,6 +11,9 @@
       "api_key": "364245231393934",
       "api_secret": "3jFSPmmbQ7bGuNWZyZi0vDlFk6Q",
       "folder": ""
+    },
+    "recaptcha": {
+      "privatekey": "6LfdXh0TAAAAACrAMlvX80lVdHQbk_TFY5HhXZ4x"
     }
   }
 }
