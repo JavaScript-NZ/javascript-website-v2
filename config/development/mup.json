@@ -1,42 +1,40 @@
 {
-  // Server authentication info
-  "servers": [
-    {
-      "host": "128.199.211.15",
-      "username": "avwave",
-      // or pem file (ssh based authentication)
-      // WARNING: Keys protected by a passphrase are not supported
-      "pem": "~/.ssh/id_rsa",
-      // Also, for non-standard ssh port use this
-      //"sshOptions": { "port" : 49154 },
-      // server specific environment variables
-      "env": {}
-    }
-  ],
+	// Server authentication info
+	"servers": [{
+		"host": "jsnz.herokuapp.com",
+		"username": "jamesmacfie",
+		// or pem file (ssh based authentication)
+		// WARNING: Keys protected by a passphrase are not supported
+		"pem": "~/.ssh/id_rsa",
+		// Also, for non-standard ssh port use this
+		//"sshOptions": { "port" : 49154 },
+		// server specific environment variables
+		"env": {}
+	}],
 
-  // Install MongoDB on the server. Does not destroy the local MongoDB on future setups
-  "setupMongo": true,
+	// Install MongoDB on the server. Does not destroy the local MongoDB on future setups
+	"setupMongo": true,
 
-  // Application name (no spaces).
-  "appName": "javascriptnz",
+	// Application name (no spaces).
+	"appName": "jsnz",
 
-  // Location of app (local directory). This can reference '~' as the users home directory.
-  // i.e., "app": "~/Meteor/my-app",
-  // This is the same as the line below.
-  "app": "../../app",
+	// Location of app (local directory). This can reference '~' as the users home directory.
+	// i.e., "app": "~/Meteor/my-app",
+	// This is the same as the line below.
+	"app": "../../app",
 
-  // Configure environment
-  // ROOT_URL must be set to your correct domain (https or http)
-  "env": {
-    "PORT": 8137,
-    "ROOT_URL": "http://js.staging.veb.nz"
-  },
+	// Configure environment
+	// ROOT_URL must be set to your correct domain (https or http)
+	"env": {
+		"PORT": 8137,
+		"ROOT_URL": "http://jsnz.herokuapp.com"
+	},
 
-  // Meteor Up checks if the app comes online just after the deployment.
-  // Before mup checks that, it will wait for the number of seconds configured below.
-  "deployCheckWaitTime": 60,
+	// Meteor Up checks if the app comes online just after the deployment.
+	// Before mup checks that, it will wait for the number of seconds configured below.
+	"deployCheckWaitTime": 60,
 
-  // show a progress bar while uploading. 
-  // Make it false when you deploy using a CI box.
-  "enableUploadProgressBar": true
+	// show a progress bar while uploading.
+	// Make it false when you deploy using a CI box.
+	"enableUploadProgressBar": true
 }
