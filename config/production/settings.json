@@ -1,16 +1,3 @@
 {
-  "public": {
-    "cloudinary": {
-      "cloud_name": "avwave",
-      "folder": ""
-    }
-  },
-  "private": {
-    "cloudinary": {
-      "cloud_name": "avwave",
-      "api_key": "364245231393934",
-      "api_secret": "3jFSPmmbQ7bGuNWZyZi0vDlFk6Q",
-      "folder": ""
-    }
-  }
+
 }
